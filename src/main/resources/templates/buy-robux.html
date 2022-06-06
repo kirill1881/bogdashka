@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css"  th:href="@{/reset.css}"/>
+    <link rel="stylesheet" href="css/fonts.css"  th:href="@{/fonts.css}"/>
+    <link rel="stylesheet" href="css/main.css" th:href="@{/main.css}"/>
+    <link rel="stylesheet" href="css/header.css" th:href="@{/header.css}"/>
+    <link rel="stylesheet" href="css/buy-robux.css"th:href="@{/buy-robux.css}" />
+    <link rel="stylesheet" href="css/buy-form.css" th:href="@{/buy-form.css}"/>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="/"
+            ><img src="../static/img/logo.png"  th:src="@{/img/logo.png}" alt="" class="logo-desc" /><img
+                    src="../static/img/logo-mob.png"
+                    alt=""
+                    class="logo-mob"
+            />Bogdashka</a
+            >
+        </div>
+        <ul class="menu">
+            <li><a class="menu-item" href="">Конкурсы</a></li>
+            <li><a class="menu-item" href="/buy.html">Мои покупки</a></li>
+            <li><a class="menu-item" href="">250₽-1000R$</a></li>
+        </ul>
+        <a href="/buy-methods" class="button-red">
+            <img src="../static/img/btn-logo.png"  th:src="@{/img/btn-logo.png}" alt="" />
+            Купить РОБУКСЫ
+        </a>
+    </nav>
+</header>
+<div id="paymethod" class="robux-modal-paymethod" style="display: none">
+    <h2>Выберите один из методов</h2>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod1.png" alt="" />
+        </a>
+        <a href="">
+            <img src="img/paymethod7.png" alt="" />
+        </a>
+    </div>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod2.png" alt="" />
+        </a>
+    </div>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod3.png" alt="" />
+        </a>
+    </div>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod4.png" alt="" />
+        </a>
+    </div>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod5.png" alt="" />
+        </a>
+    </div>
+    <div class="robux-modal-paymethod-item-row">
+        <a href="">
+            <img src="img/paymethod6.png" alt="" />
+        </a>
+    </div>
+</div>
+<div class="buy-robux">
+    <div class="buy-robux-items">
+        <div class="buy-robux-item-method">
+            <div class="buy-robux-item-method-titel">Групповой метод</div>
+            <div class="buy-robux-item-method-info">
+                <img src="img/buy-robux-method-users.png" alt="" />
+                <div class="buy-robux-item-method-info-text">
+                    <div class="buy-robux-item-method-info-text-one">1₽=2R$</div>
+                    <div class="buy-robux-item-method-info-text-two">Доступно:</div>
+                </div>
+            </div>
+            <div class="buy-robux-method-item-graphic">
+                <div class="buy-robux-method-item-graphic-white">
+                    <div class="buy-robux-method-item-graphic-green"></div>
+                </div>
+            </div>
+        </div>
+        <div class="buy-robux-item-transfer">
+            <div class="buy-robux-item-transfer-titel">Трансфер</div>
+            <div class="buy-robux-item-transfer-info">
+                <img src="img/buy-robux-transfer.png" alt="" />
+                <div class="buy-robux-item-transfer-info-text">
+                    <div class="buy-robux-item-transfer-info-text-one">1₽=1.58R$</div>
+                    <div class="buy-robux-item-transfer-info-text-two">Доступно:</div>
+                </div>
+            </div>
+            <div class="buy-robux-transfer-item-graphic">
+                <div class="buy-robux-transfer-item-graphic-white">
+                    <div class="buy-robux-transfer-item-graphic-yellow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="buy-robux-item-logpass">
+            <div class="buy-robux-item-logpass-titel">Log+Pass</div>
+            <div class="buy-robux-item-logpass-info">
+                <img src="img/buy-robux-logpass.png" alt="" />
+                <div class="buy-robux-item-logpass-info-text">
+                    <div class="buy-robux-item-logpass-info-text-one">1₽=1.86R$</div>
+                    <div class="buy-robux-item-logpass-info-text-two">Доступно:</div>
+                </div>
+            </div>
+            <div class="buy-robux-logpass-item-graphic">
+                <div class="buy-robux-logpass-item-graphic-white">
+                    <div class="buy-robux-logpass-item-graphic-red"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="buy-robux-banner">
+        <div class="buy-robux-banner-inner">
+            <div class="buy-robux-banner-one">
+                <img src="img/buy-robux-banner-1-icon.png" alt="" />
+                <p>
+                    Перейти в настройки своего Place по кнопке "Перейти на Place".
+                    Затем войти в раздел "Access" в левом списке
+                </p>
+            </div>
+            <div class="buy-robux-banner-two">
+                <img src="img/configure place.png" alt="" />
+                <div class="buy-robux-banner-two-btn">
+                    <a class="buy-robux-banner-two-btn-inner" href="https://www.roblox.com/games/9818761230/zkol0201s-Place" >Перейти на place</a>
+
+                </div>
+            </div>
+            <div class="buy-robux-banner-three">
+                <img src="img/buy-robux-banner-3-icon.png" alt="" />
+                <p>Прокрутить в САМЫЙ НИЗ страницы "Access"</p>
+            </div>
+            <div class="buy-robux-banner-four">
+                <img
+                        class="buy-robux-banner-four-img-1"
+                        src="img/buy-robux-banner-mechanic-icon.png"
+                        alt=""
+                />
+                <img
+                        class="buy-robux-banner-four-img-2"
+                        src="img/allow private.png"
+                        alt=""
+                />
+            </div>
+            <div class="buy-robux-banner-five">
+                <img src="img/buy-robux-banner-5-icon.png" alt="" />
+                <p>
+                    Поставить галочку напротив "Allow Private Servers", если она ещё
+                    не стоит и установить цену, указанную ниже. Далее нажать кнопку
+                    "Save"
+                </p>
+            </div>
+            <div class="buy-robux-banner-six">
+                <div class="buy-robux-banner-six-left">
+                    <div class="buy-banner-six-left-item-1">
+                        <img src="img/buy-robux-banner-six-info-icon.png" alt="" />
+                        <p>Установите цену на 121 R$</p>
+                    </div>
+                    <div class="buy-banner-six-left-item-2">
+                        <img src="img/buy-robux-banner-six-info-icon.png" alt="" />
+                        <p>
+                            Если Вам высвечиваются красные таблички, просто проигнорируйте
+                            их. Не забудьте нажать кнопку "Save", чтобы сохранить
+                            настройки.
+                        </p>
+                    </div>
+                    <div class="buy-banner-six-left-item-3">
+                        <img src="img/check-square.png" alt="" />
+                        <a href=""
+                        >Я подтверждаю, что установил(а) цену Place на 1211 R$ и
+                            сохранил(а) <br />данные настройки, чтобы получить 848 R$ на
+                            свой аккаунт после оплаты</a
+                        >
+                    </div>
+                </div>
+                <div class="buy-robux-banner-six-right">
+                    <img src="img/buy-robux-banner-six.png" alt="" />
+                </div>
+            </div>
+            <a
+                   href="/buy"
+                    class="buy-robux-banner-btn"
+            >
+                <div class="buy-robux-banner-btn-inner">
+                    Подвердить и купить робуксы
+                </div>
+            </a>
+        </div>
+        <img class="buy-robux-banner-hero-1" src="img/hero1.png" alt="" />
+        <img class="buy-robux-banner-hero-2" src="img/hero_2.png" alt="" />
+        <img
+                class="buy-robux-banner-figure-right"
+                src="img/robux-favorable-conditions-figure-img.png"
+        />
+        <img
+                class="buy-robux-banner-figure-right-2"
+                src="img/robux-figure-questions.png"
+                alt=""
+        />
+        <img
+                class="buy-robux-banner-figure-right-3"
+                src="img/buy-robux-figure-right-3.png"
+                alt=""
+        />
+        <img class="vector-1" src="img/Vector 1.png" alt="" />
+    </div>
+</div>
+<div class="robux-footer">
+    <div class="robux-footer-inner">
+        <a href=""><img src="img/youtube-icon.png" alt="" /></a>
+        <a href=""><img src="img/vk-icon.png" alt="" /></a>
+        <a href=""><img src="img/instagram-icon.png" alt="" /></a>
+        <a href=""><img src="img/twitter-icon.png" alt="" /></a>
+        <a href=""><img src="img/tiktok-icon.png" alt="" /></a>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="js/buy-robux.js"></script>
+</body>
+</html>

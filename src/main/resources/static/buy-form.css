@@ -1,0 +1,1176 @@
+body {
+  background: linear-gradient(180deg, #222831 0%, #222831 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.buy-form {
+  margin-top: 80px;
+  position: relative;
+}
+
+.buy-form-inner {
+  width: 1192px;
+  border-radius: 50px;
+  background-image: url(../img/buy-form-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 590px;
+  padding: 47px 50px 59px 27px;
+  position: relative;
+  z-index: 2;
+}
+
+.buy-form-sqr-1 {
+  position: absolute;
+  top: 125px;
+  left: -128px;
+  z-index: 0;
+  width: 166px;
+}
+
+.buy-form-sqr-2 {
+  position: absolute;
+  bottom: -80px;
+  left: 77px;
+  z-index: 0;
+  width: 166px;
+}
+
+.buy-form-sqr-3 {
+  position: absolute;
+  top: 125px;
+  right: -85px;
+  z-index: 0;
+  width: 166px;
+}
+
+.buy-form-sqr-4 {
+  position: absolute;
+  bottom: -50px;
+  right: -77px;
+  z-index: 0;
+  width: 145px;
+}
+
+.buy-form-title {
+  font-size: 36px;
+  line-height: 1.222;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.buy-form-subtitle {
+  font-size: 24px;
+  line-height: 1.166;
+  font-weight: 500;
+  color: #fff;
+  width: 613px;
+  margin-bottom: 68px;
+}
+
+.buy-form-field {
+  position: relative;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #09b49f -93.75deg,
+    #f05454 88.12deg,
+    #ffc93d 183.75deg,
+    #09b49f 266.25deg,
+    #f05454 448.12deg
+  );
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 118px;
+}
+
+.buy-form-field input {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 15px;
+  border: none;
+  background: #3d4249;
+  color: rgba(255, 255, 255, 0.65);
+  padding-left: 98px;
+  font-size: 36px;
+  line-height: 1.166;
+  font-weight: 500;
+}
+
+.buy-form-field input:placeholder {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 36px;
+  line-height: 1.166;
+  font-weight: 500;
+}
+
+.buy-form-field input.red::placeholder {
+  color: #c32017;
+}
+
+.buy-form-field img {
+  position: absolute;
+  width: 46px;
+  height: 48px;
+  left: 32px;
+  top: calc(50% - 24px);
+}
+
+.buy-form-eq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.buy-form-info-text {
+  font-size: 24px;
+  line-height: 1.166;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  top: -87px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.buy-form-eq-field {
+  position: relative;
+  width: 516px;
+  height: 82px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #f05454 -90deg,
+    #ffc93d 88.12deg,
+    #f05454 270deg,
+    #ffc93d 448.12deg
+  );
+}
+
+.buy-form-eq-field.blue {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #09b49f -88.13deg,
+    #98cbff 91.88deg,
+    #09b49f 271.87deg,
+    #98cbff 451.88deg
+  );
+}
+
+.buy-form-eq-field input {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 15px;
+  border: none;
+  background: #3d4249;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 36px;
+  line-height: 1.166;
+  font-weight: 500;
+  text-align: center;
+}
+
+.buy-form-eq-field input:placeholder {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 20px;
+  line-height: 1.166;
+  font-weight: 500;
+}
+
+.error {
+  display: none;
+  color: #c32017;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+.error.active {
+  display: block;
+}
+
+.buy-form-eq-field img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 32px;
+  top: calc(50% - 20px);
+}
+
+.buy-form-eq-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.buy-form-submit {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #0080ff -90deg,
+    #f05454 58.12deg,
+    #ffc93d 123.75deg,
+    #09b49f 210deg,
+    #0080ff 270deg,
+    #f05454 418.13deg
+  );
+  width: 140px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 23px;
+  margin-bottom: 1360px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buy-form-submit:hover .buy-form-submit-inner {
+  background-color: transparent;
+}
+
+.buy-form-submit-inner {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  line-height: 1.222;
+  color: #fff;
+  font-weight: bold;
+  background-color: #3d4249;
+  transition: 0.5s;
+}
+
+.buy-robux-item-method-info {
+  display: flex;
+}
+
+.buy-robux-items {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 880px;
+}
+
+.buy-robux-item-method {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.buy-robux-item-method-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-method-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-method-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-method-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-method-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-items {
+  position: relative;
+  z-index: 3;
+}
+
+.buy-form-1,
+.buy-form-2,
+.buy-form-3 {
+  display: none;
+}
+
+.buy-form-1.active,
+.buy-form-2.active,
+.buy-form-3.active {
+  display: block;
+}
+
+.buy-robux-item-method {
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #f05454 0%,
+    #0080ff 100%
+  );
+  cursor: pointer;
+}
+
+.buy-robux-method-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-method-item-graphic-green {
+  width: 124px;
+  height: 5px;
+  background: #09b49f;
+  border-radius: 5px;
+}
+
+.buy-robux-method-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+/* buy-robux-transfer */
+
+.buy-robux-item-transfer-info {
+  display: flex;
+}
+
+.buy-robux-item-transfer {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.buy-robux-item-transfer-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-transfer-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-transfer-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-transfer-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-transfer-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-item-transfer {
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #f05454 0%,
+    #ad00ff 100%
+  );
+  cursor: pointer;
+}
+
+.buy-robux-transfer-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-transfer-item-graphic-yellow {
+  width: 55px;
+  height: 5px;
+  background: #ffc93d;
+  border-radius: 5px;
+}
+
+.buy-robux-transfer-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+/* buy-robux-loggpass */
+
+.buy-robux-item-logpass-info {
+  display: flex;
+}
+
+.buy-robux-item-logpass {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.buy-robux-item-logpass-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-logpass-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-logpass-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-logpass-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-logpass-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-item-logpass {
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #0080ff 0%,
+    #09b49f 100%
+  );
+  cursor: pointer;
+}
+
+.buy-robux-logpass-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-logpass-item-graphic-red {
+  width: 25px;
+  height: 5px;
+  background: #f05454;
+  border-radius: 5px;
+}
+
+.buy-robux-logpass-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-form-hero-1 {
+  position: absolute;
+  top: -420px;
+  left: -320px;
+  z-index: 1;
+}
+
+.hero-img {
+  width: 465px;
+}
+
+.buy-form-hero-1 .dialog {
+  position: absolute;
+  top: -82px;
+  left: 365px;
+  width: 395px;
+}
+
+.buy-form-hero-2 {
+  position: absolute;
+  top: -215px;
+  right: -340px;
+  z-index: 1;
+}
+
+.buy-form-hero-2 .dialog {
+  position: absolute;
+  top: -103px;
+  left: -302px;
+  width: 324px;
+}
+
+.buy-form-hero-3 {
+  position: absolute;
+  bottom: -410px;
+  left: -420px;
+  z-index: 1;
+}
+
+.buy-form-hero-4 {
+  position: absolute;
+  bottom: -1130px;
+  right: -300px;
+  z-index: 1;
+}
+
+.dialog {
+  position: absolute;
+}
+
+.hero-img {
+  z-index: 2;
+  position: relative;
+}
+
+.buy-form-hero-1 .form-line {
+  position: absolute;
+  left: 487px;
+  top: -20px;
+  width: 915px;
+  z-index: 0;
+}
+
+.buy-form-hero-3 .form-line {
+  position: absolute;
+  right: -206px;
+  bottom: 220px;
+  width: 345px;
+  z-index: 0;
+}
+
+.buy-form-hero-3 .form-line2 {
+  position: absolute;
+  left: 280px;
+  top: 264px;
+  width: 1376px;
+  z-index: 0;
+}
+
+.buy-form-hero-4 .form-line {
+  position: absolute;
+  left: 120px;
+  top: 557px;
+  width: 567px;
+  z-index: 0;
+}
+
+.buy-form-submit.mob {
+  display: none;
+}
+
+.buy-form-subtitle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 75px;
+}
+
+.buy-form-subtitle.big {
+  width: 678px;
+  font-size: 18px;
+}
+
+.buy-form-subtitle-field {
+  width: 305px;
+  height: 50px;
+  border-radius: 10px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #0080ff -97.5deg,
+    #09b49f 75deg,
+    #0080ff 262.5deg,
+    #09b49f 435deg
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.buy-form-subtitle-field input {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  text-align: center;
+  border-radius: 10px;
+  background: #3d4249;
+  font-size: 24px;
+  line-height: 1.166;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+}
+
+.buy-form-subtitle-field input:placeholder {
+  font-size: 24px;
+  line-height: 1.166;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 1840px) {
+  .buy-form {
+    margin-top: 4.347vw;
+  }
+  .buy-form-inner {
+    width: 64.782vw;
+    border-radius: 2.717vw;
+    height: 32.065vw;
+    padding: 2.554vw 2.717vw 3.206vw 1.467vw;
+  }
+  .buy-form-sqr-1 {
+    top: 6.793vw;
+    left: -6.956vw;
+    width: 9.021vw;
+  }
+  .buy-form-sqr-2 {
+    bottom: -4.347vw;
+    left: 4.184vw;
+    width: 9.021vw;
+  }
+  .buy-form-sqr-3 {
+    top: 6.793vw;
+    right: -4.619vw;
+    width: 9.021vw;
+  }
+  .buy-form-sqr-4 {
+    bottom: -2.717vw;
+    right: -4.184vw;
+    width: 7.88vw;
+  }
+  .buy-form-title {
+    font-size: 1.956vw;
+    margin-bottom: 1.521vw;
+  }
+  .buy-form-subtitle {
+    font-size: 1.304vw;
+    width: 33.315vw;
+    margin-bottom: 3.695vw;
+  }
+  .buy-form-field {
+    height: 4.619vw;
+    border-radius: 0.815vw;
+    margin-bottom: 6.413vw;
+  }
+  .buy-form-field input {
+    border-radius: 0.815vw;
+    padding-left: 5.326vw;
+    font-size: 1.956vw;
+  }
+  .buy-form-field input:placeholder {
+    font-size: 1.956vw;
+  }
+  .buy-form-field img {
+    width: 2.5vw;
+    height: 2.608vw;
+    left: 1.739vw;
+    top: calc(50% - 1.304vw);
+  }
+  .buy-form-eq-field {
+    width: 28.043vw;
+    height: 4.456vw;
+    border-radius: 0.815vw;
+  }
+  .buy-form-eq-field input {
+    border-radius: 0.815vw;
+    font-size: 1.956vw;
+  }
+  .buy-form-eq-field input:placeholder {
+    font-size: 1.956vw;
+  }
+  .buy-form-eq-field img {
+    width: 2.173vw;
+    height: 2.173vw;
+    left: 1.739vw;
+    top: calc(50% - 1.086vw);
+  }
+  .buy-form-eq-icon {
+    width: 2.608vw;
+    height: 2.608vw;
+  }
+  .buy-form-submit {
+    width: 7.608vw;
+    height: 2.826vw;
+    border-radius: 0.815vw;
+    margin-top: 1.25vw;
+    margin-bottom: 73.913vw;
+  }
+  .buy-form-submit-inner {
+    border-radius: 0.815vw;
+    font-size: 1.956vw;
+  }
+  .buy-robux-items {
+    margin-top: 47.826vw;
+  }
+  .buy-robux-item-method {
+    padding-top: 0.326vw;
+    padding-bottom: 0.434vw;
+    margin-right: 1.739vw;
+  }
+  .buy-robux-item-method-titel {
+    font-size: 0.978vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-method-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-method-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-method-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-method-info-text {
+    margin-left: 0.706vw;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-method {
+    border-radius: 1.086vw;
+    width: 13.695vw;
+    height: 4.293vw;
+  }
+  .buy-robux-method-item-graphic-white {
+    width: 7.826vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-method-item-graphic-green {
+    width: 6.739vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-item-transfer {
+    padding-top: 0.326vw;
+    padding-bottom: 0.434vw;
+    margin-right: 1.739vw;
+  }
+  .buy-robux-item-transfer-titel {
+    font-size: 0.978vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-transfer-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-transfer-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-transfer-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-transfer-info-text {
+    margin-left: 0.706vw;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-transfer {
+    border-radius: 1.086vw;
+    width: 13.695vw;
+    height: 4.293vw;
+  }
+  .buy-robux-transfer-item-graphic-white {
+    width: 7.826vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-transfer-item-graphic-yellow {
+    width: 2.989vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-item-logpass {
+    padding-top: 0.326vw;
+    padding-bottom: 0.434vw;
+  }
+  .buy-robux-item-logpass-titel {
+    font-size: 0.978vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-logpass-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-logpass-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-logpass-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-logpass-info-text {
+    margin-left: 0.706vw;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-logpass {
+    border-radius: 1.086vw;
+    width: 13.695vw;
+    height: 4.293vw;
+  }
+  .buy-robux-logpass-item-graphic-white {
+    width: 7.826vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-logpass-item-graphic-red {
+    width: 1.358vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-form-hero-1 {
+    top: -22.826vw;
+    left: -17.391vw;
+  }
+  .buy-form-hero-1 .dialog {
+    top: -4.456vw;
+    left: 19.836vw;
+  }
+  .buy-form-hero-2 {
+    top: -11.684vw;
+    right: -18.378vw;
+  }
+  .buy-form-hero-2 .dialog {
+    top: -5.597vw;
+    left: -16.413vw;
+  }
+  .buy-form-hero-3 {
+    bottom: -22.282vw;
+    left: -22.826vw;
+  }
+  .buy-form-hero-4 {
+    bottom: -61.413vw;
+    right: -16.304vw;
+  }
+  .buy-form-hero-1 .form-line {
+    left: 26.467vw;
+    top: -1.086vw;
+    width: 49.728vw;
+  }
+  .buy-form-hero-3 .form-line {
+    right: -11.195vw;
+    bottom: 11.956vw;
+    width: 18.75vw;
+  }
+  .buy-form-hero-3 .form-line2 {
+    left: 15.217vw;
+    top: 14.347vw;
+    width: 74.782vw;
+  }
+  .buy-form-hero-4 .form-line {
+    left: 6.521vw;
+    top: 30.271vw;
+    width: 30.815vw;
+  }
+  .hero-img {
+    width: 25.271vw;
+  }
+  .buy-form-hero-1 .dialog {
+    width: 21.467vw;
+  }
+  .buy-form-hero-2 .dialog {
+    width: 17.608vw;
+  }
+  .buy-form-info-text {
+    font-size: 1.304vw;
+    top: -4.728vw;
+  }
+  .buy-form-subtitle-wrapper {
+    padding-right: 4.076vw;
+  }
+  .buy-form-subtitle-field {
+    width: 16.576vw;
+    height: 2.717vw;
+    border-radius: 0.543vw;
+  }
+  .buy-form-subtitle-field input {
+    border-radius: 0.543vw;
+    font-size: 1.304vw;
+  }
+  .buy-form-subtitle-field input:placeholder {
+    font-size: 1.304vw;
+  }
+  .buy-form-subtitle.big {
+    width: 36.847vw;
+    font-size: 0.978vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .buy-form-hero-3,
+  .buy-form-hero-4,
+  .form-line,
+  .buy-form-submit,
+  .buy-form-sqr-1,
+  .buy-form-sqr-2,
+  .buy-form-sqr-3,
+  .buy-form-sqr-4,
+  .buy-form-info-text {
+    display: none;
+  }
+  .buy-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .buy-form-inner {
+    padding: 5.866vw 8vw 10.666vw 8vw;
+    width: calc(100% - 5.333vw);
+    background-image: url(../img/buy-form-bg-mob.png);
+    height: 120vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buy-form-title {
+    font-size: 4.8vw;
+    margin-bottom: 4.8vw;
+  }
+  .buy-form-subtitle {
+    font-size: 3.466vw;
+    margin-bottom: 15.2vw;
+    width: 100%;
+  }
+  .buy-form-field {
+    height: 10.133vw;
+    border-radius: 4vw;
+  }
+  .buy-form-field img {
+    width: 4.8vw;
+    height: 4.8vw;
+    top: calc(50% - 2.4vw);
+  }
+  .buy-form-field input {
+    text-align: center;
+    padding-left: 0;
+    font-size: 3.2vw;
+    border-radius: 4vw;
+  }
+  .buy-form-field input::placeholder {
+    font-size: 3.2vw;
+  }
+  .buy-form-eq-container {
+    margin-bottom: 20.266vw;
+    width: 100%;
+  }
+  .buy-form-eq-field {
+    width: 32vw;
+    height: 10.133vw;
+    border-radius: 4vw;
+  }
+  .buy-form-eq-field img {
+    width: 4.8vw;
+    height: 4.8vw;
+    top: calc(50% - 2.4vw);
+  }
+  .buy-form-eq-field input {
+    border-radius: 4vw;
+    font-size: 3.2vw;
+    border-radius: 4vw;
+  }
+  .buy-form-eq-field input:placeholder {
+    font-size: 3.2vw;
+  }
+  .buy-form-submit.mob {
+    display: flex;
+  }
+  .buy-form-submit {
+    width: 32vw;
+    height: 8vw;
+    border-radius: 2.666vw;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .buy-form-submit-inner {
+    font-size: 4.8vw;
+    justify-content: center;
+    border-radius: 2.666vw;
+  }
+  .buy-form-submit-inner img {
+    width: 4.266vw;
+    margin-right: 1.333vw;
+  }
+  .buy-form-eq-icon {
+    width: 3.733vw;
+    height: 3.733vw;
+  }
+  .buy-robux-items {
+    margin-bottom: 7.466vw;
+    margin-top: 91.2vw;
+    position: relative;
+    z-index: 2;
+  }
+  .buy-robux-item-method,
+  .buy-robux-item-transfer,
+  .buy-robux-item-logpass {
+    width: 25.866vw;
+    height: 7.733vw;
+    border-radius: 2.666vw;
+  }
+  .buy-robux-item-method-titel,
+  .buy-robux-item-transfer-titel,
+  .buy-robux-item-logpass-titel {
+    font-size: 1.866vw;
+    margin-left: 5.333vw;
+  }
+  .buy-robux-item-method-info-text,
+  .buy-robux-item-transfer-info-text,
+  .buy-robux-item-logpass-info-text {
+    margin-left: 1.333vw;
+    margin-top: 0.533vw;
+  }
+  .buy-robux-item-method-info-text-one,
+  .buy-robux-item-transfer-info-text-one,
+  .buy-robux-item-logpass-info-text-one {
+    font-size: 1.6vw;
+  }
+  .buy-robux-item-method-info-text-two,
+  .buy-robux-item-transfer-info-text-two,
+  .buy-robux-item-logpass-info-text-two {
+    font-size: 1.333vw;
+  }
+  .buy-robux-item-method-info img,
+  .buy-robux-item-transfer-info img,
+  .buy-robux-item-logpass-info img {
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-left: 0.8vw;
+  }
+  .buy-robux-method-item-graphic,
+  .buy-robux-transfer-item-graphic,
+  .buy-robux-logpass-item-graphic {
+    margin-top: 0.533vw;
+  }
+  .buy-robux-method-item-graphic-white,
+  .buy-robux-transfer-item-graphic-white,
+  .buy-robux-logpass-item-graphic-white {
+    width: 14.933vw;
+    height: 0.533vw;
+  }
+  .buy-robux-method-item-graphic-green,
+  .buy-robux-transfer-item-graphic-yellow,
+  .buy-robux-logpass-item-graphic-red {
+    height: 100%;
+  }
+  .buy-robux-method-item-graphic-green {
+    width: 12.8vw;
+  }
+  .buy-robux-method-item-graphic-yellow {
+    width: 5.6vw;
+  }
+  .buy-robux-method-item-graphic-red {
+    width: 2.666vw;
+  }
+  .buy-form-hero-1 {
+    top: -77.866vw;
+    left: -18.666vw;
+  }
+  .buy-form-hero-1 .hero-img {
+    width: 53.333vw;
+  }
+  .buy-form-hero-1 .dialog {
+    width: 41.866vw;
+    left: 42.666vw;
+    top: -8.533vw;
+  }
+  .buy-form-hero-2 {
+    top: -32.533vw;
+    right: -9.066vw;
+    z-index: 1;
+  }
+  .buy-form-hero-2 .hero-img {
+    width: 24vw;
+  }
+  .buy-form-hero-2 .dialog {
+    width: 33.6vw;
+    left: -24vw;
+    top: -9.6vw;
+  }
+  footer {
+    width: 100%;
+  }
+  .robux-footer {
+    padding-bottom: 45.066vw;
+  }
+  .robux-footer-inner {
+    margin-top: 143.73vw;
+  }
+  .buy-form-subtitle.big {
+    width: 100%;
+  }
+  .buy-form-subtitle-wrapper {
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .buy-form-subtitle-field {
+    width: 100%;
+    height: 10.133vw;
+    border-radius: 4vw;
+    margin-bottom: 5.333vw;
+  }
+  .buy-form-subtitle-field input {
+    border-radius: 4vw;
+    font-size: 3.2vw;
+  }
+  .buy-form-subtitle-field input:placeholder {
+    font-size: 3.2vw;
+  }
+  .buy-form-subtitle.big {
+    width: 100%;
+    font-size: 4.8vw;
+    margin-bottom: 5.333vw;
+  }
+}

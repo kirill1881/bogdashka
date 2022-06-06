@@ -1,0 +1,147 @@
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 98px;
+}
+
+.logo img {
+  width: 70px;
+  height: 69px;
+  margin-right: 5px;
+}
+
+.logo a {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: "Gilroy";
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.166;
+  margin-right: 60px;
+  transition: 0.2s;
+}
+
+.menu li:last-child .menu-item {
+  margin-right: 0;
+}
+
+.menu-item:hover {
+  opacity: 0.7;
+  color: #808080;
+}
+
+.button-red {
+  color: #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(240, 84, 84, 0.5) 0%,
+    rgba(34, 40, 49, 0.5) 100%
+  );
+  border: 0.5px solid rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  width: 216px;
+  height: 54px;
+  cursor: pointer;
+  margin-left: 132px;
+  transition: 0.5s;
+}
+
+.button-red:hover {
+  opacity: 0.7;
+}
+
+.button-red img {
+  width: 36px;
+  height: 35px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.logo-mob {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .logo {
+    margin-right: 7.656vw;
+  }
+  .logo a {
+    font-size: 2.812vw;
+  }
+  .logo img {
+    width: 5.468vw;
+    height: 5.39vw;
+    margin-right: 0.39vw;
+  }
+  .menu-item {
+    font-size: 1.406vw;
+    margin-right: 4.687vw;
+  }
+  .button-red {
+    box-shadow: 0px 0.156vw 0.39vw rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7.812vw);
+    border-radius: 0.781vw;
+    font-size: 1.406vw;
+    line-height: 1.718vw;
+    width: 16.875vw;
+    height: 4.218vw;
+    margin-left: 10.312vw;
+  }
+  .button-red img {
+    width: 2.812vw;
+    height: 2.734vw;
+    margin-left: 0.625vw;
+    margin-right: 0.625vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu,
+  .button-red,
+  .robux-favorable-conditions-item-btn-robux,
+  .logo-desc {
+    display: none;
+  }
+  .logo-mob {
+    display: block;
+  }
+  .logo {
+    margin-right: 0;
+    margin-top: 7px;
+  }
+  .logo img {
+    width: 32px;
+    height: 34px;
+    margin-right: 3px;
+  }
+  .logo a {
+    font-size: 18px;
+  }
+}

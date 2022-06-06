@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Gilroy";
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient(180deg, #222831 0%, #222831 100%);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

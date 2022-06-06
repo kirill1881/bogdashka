@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css"  th:href="@{/reset.css}"/>
+    <link rel="stylesheet" href="css/fonts.css"  th:href="@{/fonts.css}"/>
+    <link rel="stylesheet" href="css/main.css" th:href="@{/main.css}"/>
+    <link rel="stylesheet" href="css/header.css" th:href="@{/header.css}"/>
+    <link rel="stylesheet" href="buy.css" th:href="@{/buy.css}"/>
+    <link rel="stylesheet" href="user-contract.css" th:href="@{/user-contract.css.css}"/>
+  </head>
+  <body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="/"
+        ><img src="../static/img/logo.png"  th:src="@{/img/logo.png}" alt="" class="logo-desc" /><img
+                src="../static/img/logo-mob.png"
+                alt=""
+                class="logo-mob"
+        />Bogdashka</a
+        >
+      </div>
+      <ul class="menu">
+        <li><a class="menu-item" href="">Конкурсы</a></li>
+        <li><a class="menu-item" href="/buy.html">Проверка покупок</a></li>
+        <li><a class="menu-item" href="">456₽-1000R$</a></li>
+      </ul>
+      <a href="/buy-methods" class="button-red">
+        <img src="../static/img/btn-logo.png"  th:src="@{/img/btn-logo.png}" alt="" />
+        Купить РОБУКСЫ
+      </a>
+    </nav>
+  </header>
+    <div class="check-buy">
+      <div class="check-buy-title">Проверка покупок</div>
+      <div class="check-buy-nickname-items">
+        <div class="check-buy-nickname-btn-item">
+          <input class="check-buy-nickname-btn" placeholder="введите никнэйм" />
+          <div class="check-buy-nickname-apply-btn">
+            <div class="check-buy-nickname-apply-btn-inner">Применить</div>
+          </div>
+        </div>
+        <img class="check-buy-geer" src="../static/img/check-buy-geer.png" th:src="@{/img/check-buy-geer.png}" alt="" />
+      </div>
+      <div class="check-buy-banner">
+        <div class="check-buy-banner-top">
+          <div class="check-buy-banner-top-date">Дата</div>
+          <div class="check-buy-banner-top-geer">
+            <img src="../static/img/check-buy-banner-icon.png" th:src="@{/img/check-buy-banner-icon.png}" alt="" />
+            <p>для <span>Geer</span> в количестве 30 Робуксов</p>
+          </div>
+          <div class="check-buy-banner-top-time">Время</div>
+        </div>
+        <div class="check-buy-banner-bottom">
+          <div class="check-buy-banner-bottom-date">13.04</div>
+          <div class="check-buy-banner-bottom-items">
+            <div class="check-buy-banner-bottom-item-black">
+              <div class="check-buy-banner-bottom-item-yellow"></div>
+            </div>
+            <div class="check-buy-banner-bottom-item-text">в ожидании</div>
+          </div>
+          <div class="check-buy-banner-bottom-time">20:00</div>
+        </div>
+        <div class="check-buy-banner-top">
+          <div class="check-buy-banner-top-geer">
+            <img src="../static/img/check-buy-banner-icon.png" th:src="@{/img/check-buy-banner-icon.png}" alt="" />
+            <p>для <span>Geer</span> в количестве 50 Робуксов</p>
+          </div>
+        </div>
+        <div class="check-buy-banner-bottom">
+          <div class="check-buy-banner-bottom-date">14.04</div>
+          <div class="check-buy-banner-bottom-items">
+            <div class="check-buy-banner-bottom-item-green"></div>
+            <div class="check-buy-banner-bottom-item-text green">выполнено</div>
+          </div>
+          <div class="check-buy-banner-bottom-time">15:00</div>
+        </div>
+        <div class="check-buy-banner-top">
+          <div class="check-buy-banner-top-geer">
+            <img src="../static/img/check-buy-banner-icon.png" th:src="@{/img/check-buy-banner-icon.png}" alt="" />
+            <p>для <span>Geer</span> в количестве 5 Робуксов</p>
+          </div>
+        </div>
+        <div class="check-buy-banner-bottom">
+          <div class="check-buy-banner-bottom-date">15.04</div>
+          <div class="check-buy-banner-bottom-items">
+            <div class="check-buy-banner-bottom-item-black black-items">
+              <div class="check-buy-banner-bottom-item-red-items">
+                <div class="check-buy-banner-bottom-item-red"></div>
+                <div class="check-buy-banner-bottom-item-red"></div>
+                <div class="check-buy-banner-bottom-item-red"></div>
+                <div class="check-buy-banner-bottom-item-red"></div>
+                <div class="check-buy-banner-bottom-item-red"></div>
+              </div>
+            </div>
+            <div class="check-buy-banner-bottom-item-text red">отменено</div>
+          </div>
+          <div class="check-buy-banner-bottom-time">23:00</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-two">
+      <div class="container-user-contract">
+        <div class="footer-two-items">
+          <div class="footer-two-item-mail">
+            <img src="../static/img/footer-two-mail.png" alt="" />
+            <a href="">support@robus.ru</a>
+          </div>
+          <div class="footer-two-item-vk">
+            <img src="../static/img/footer-two-vk.png" alt="" />
+            <a href="">vk.com/robux</a>
+          </div>
+          <div class="faq">
+            <a href="">F&Q</a>
+          </div>
+          <div class="buy active-green">
+            <a href="">Покупки</a>
+          </div>
+          <div class="privacy-policy">
+            <a href="">Политика конфиденциальности</a>
+          </div>
+          <div class="terms-of-use">
+            <a href="/user-contract.html">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1508 @@
+.robux-main-bg-mob {
+  display: none;
+}
+
+/* robux-favorable-conditions */
+
+.robux-favorable-conditions-item {
+  background: url(img/banner-wrapper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1816px;
+  height: 400px;
+  margin: 151px auto 0;
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  padding: 66px 0;
+}
+
+.robux-main-vector-1 {
+  width: 505px;
+  height: 604px;
+  position: absolute;
+  top: 559px;
+  left: 489px;
+}
+
+.robux-favorable-conditions-item-content {
+  margin-left: 496px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 106px;
+}
+
+.robux-favorable-conditions-item-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 558px;
+}
+
+.robux-favorable-conditions-item-hero-img {
+  width: 482px;
+  position: absolute;
+  top: -90px;
+  left: -11px;
+}
+
+.robux-favorable-conditions-item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+  width: 514px;
+  text-align: center;
+}
+
+.robux-favorable-conditions-item-btn-robux {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(240, 84, 84, 0.35) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  border-radius: 25px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 275px;
+  height: 74px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  border: 1px solid #fff;
+  transition: 0.1s;
+  color: #fff;
+}
+
+.robux-favorable-conditions-item-btn-robux:hover {
+  opacity: 0.7;
+}
+
+.robux-favorable-conditions-item-btn {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #fff;
+  width: 186px;
+  height: 69px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #f05454 0%,
+    rgba(255, 105, 105, 0) 100%
+  );
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.robux-favorable-conditions-item-btn-1 {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.robux-favorable-conditions-item-btn:hover {
+  opacity: 0.7;
+}
+
+.robux-favorable-conditions-item-btn img {
+  width: 22px;
+  margin-left: 11px;
+}
+
+.robux-favorable-conditions-item-btn-1 img {
+  margin-right: 11px;
+}
+
+.robux-favorable-conditions-item-btn-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.robux-favorable-conditions-item-btn-2 img {
+  margin-right: 30px;
+}
+.robux-favorable-conditions-item-btn-3 {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.robux-favorable-conditions-item-btn-3 img {
+  margin-right: 31px;
+}
+
+.robux-favorable-conditions-figure-img {
+  position: absolute;
+  width: 166px;
+  top: 356px;
+  left: 0;
+}
+
+/* robux-info */
+.robux-info {
+  margin-top: 318px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.robux-info-items {
+  display: flex;
+  max-width: 1212px;
+  background: rgba(196, 196, 196, 0.106);
+  box-shadow: inset 10.1333px -10.1333px 10.1333px rgba(165, 165, 165, 0.412),
+    inset -10.1333px 10.1333px 10.1333px rgba(255, 255, 255, 0.412);
+  backdrop-filter: blur(101.333px);
+  border-radius: 60px;
+  transform: rotate(0.5deg);
+  padding-top: 65px;
+  padding-bottom: 68px;
+  justify-content: center;
+  margin-right: 83px;
+  position: relative;
+  z-index: 1000;
+}
+
+.robux-info-item {
+  text-align: center;
+  max-width: 264px;
+  margin-right: 94px;
+}
+
+.robux-info-item:last-child {
+  margin-right: 0;
+}
+
+.robux-info-item img {
+  width: 71px;
+  height: 71px;
+  margin-bottom: 23px;
+}
+
+.robux-info-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.20833;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.robux-info-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.125;
+  color: #fff;
+}
+
+.robux-info-img {
+  width: 491px;
+  position: absolute;
+  top: 0;
+  right: 90px;
+}
+
+.robux-info-figure-img {
+  position: absolute;
+  top: 230px;
+  left: 1115px;
+  width: 169px;
+}
+
+/* robux-our-statistics */
+
+.robux-our-statistics {
+  margin-top: 93px;
+}
+
+.robox-our-statistics-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 53px;
+  margin-left: -70px;
+}
+
+.robux-our-statistics-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.robox-our-statistics-item {
+  margin-right: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.robox-our-statistics-item:last-child {
+  margin-right: 0;
+}
+
+.robox-our-statistics-item-num {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+}
+
+.robox-our-statistics-item-title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+  margin-bottom: 17px;
+  margin-top: 7px;
+}
+
+.robux-our-statistics-graphic {
+  width: 290px;
+  height: 26px;
+  background: #09b49f;
+  border-radius: 20px;
+  position: relative;
+}
+
+.robux-our-statistics-graphic-white {
+  width: 106px;
+  height: 26px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.robux-our-statistics-graphic-red {
+  width: 290px;
+  height: 26px;
+  background: #f05454;
+  border-radius: 20px;
+  position: relative;
+}
+
+.robux-our-statistics-graphic-white-2 {
+  width: 213px;
+  height: 26px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.robux-our-statistics-graphic-yellow {
+  width: 290px;
+  height: 26px;
+  background: #ffc93d;
+  border-radius: 20px;
+  position: relative;
+}
+
+.robux-our-statistics-graphic-white-3 {
+  width: 90px;
+  height: 26px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* robux-reviews */
+
+.robux-reviews {
+  margin-top: 189px;
+  position: relative;
+}
+
+.robux-main-vector-2 {
+  width: 345px;
+  height: 800px;
+  position: absolute;
+  top: -675px;
+  left: 226px;
+}
+
+.robux-reviews-info-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2083;
+  color: #fff;
+  margin-bottom: 38px;
+}
+
+.robux-reviews-info-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.1666;
+  color: #fff;
+  padding-bottom: 296px;
+}
+
+.robux-reviews-info {
+  margin-left: auto;
+  text-align: center;
+  width: 556px;
+  margin-right: 129px;
+}
+
+.robux-reviews-info-youtube-img {
+  width: 604px;
+  position: absolute;
+  top: -70px;
+  left: 586px;
+}
+
+.robux-reviews-info-hero {
+  width: 434px;
+  position: absolute;
+  top: 0;
+  left: 107px;
+  z-index: 100;
+}
+
+/* robux-questions */
+
+.robux-questions {
+  position: relative;
+}
+
+.robux-figure-questions {
+  position: absolute;
+  top: -194px;
+  left: 292px;
+  width: 168px;
+}
+
+.robux-main-vector-3 {
+  position: absolute;
+  width: 1400px;
+  height: 389px;
+  top: -484px;
+  left: 225px;
+}
+
+.robux-main-vector-4 {
+  position: absolute;
+  top: 324px;
+  right: 1px;
+  width: 493px;
+}
+
+.robux-questions-info {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 318px;
+  padding-bottom: 158px;
+}
+
+.robux-questions-info-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2083;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.robux-questions-info-subtitle {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.125;
+  color: #fff;
+}
+
+.robux-questions-info-button {
+  background: linear-gradient(
+    180deg,
+    rgba(196, 196, 196, 0.15) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+  box-shadow: inset 5px -5px 14px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
+  width: 200px;
+  height: 85px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 49px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.robux-questions-info-button:hover {
+  opacity: 0.7;
+}
+
+.robux-questions-info-btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.robux-questions-img {
+  width: 562px;
+  position: absolute;
+  top: -230px;
+  right: 51px;
+  z-index: 10;
+}
+
+/* robux-footer */
+
+.robux-footer {
+  padding-bottom: 19px;
+}
+
+.robux-footer-inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 126px;
+}
+
+.robux-footer-inner a {
+  margin-right: 75px;
+}
+
+.robux-footer-inner a:hover {
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
+.robux-footer-inner a:last-child {
+  margin-right: 0;
+}
+
+.robux-footer-inner img {
+  width: 59px;
+  height: 59px;
+  cursor: pointer;
+}
+
+.robux-favorable-conditions-item-form{
+  width: 416px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  padding-left: 17px;
+  background: radial-gradient(100% 266.67% at 0% 49.33%, #F05454 48.96%, rgba(255, 105, 105, 0) 100%);
+border-radius: 20px;
+}
+
+.robux-favorable-conditions-item-form-title{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 23px;
+  font-size: 12px;
+  line-height: 1.166;
+  font-family: 'Gilroy';
+  font-weight: 700;
+}
+
+.robux-favorable-conditions-item-form-title img{
+  width: 24px;
+  margin-right: 15px;
+}
+
+.robux-favorable-conditions-item-form-wrap{
+  display: flex;
+  position: relative;
+}
+
+.robux-favorable-conditions-item-form-left {
+  margin-right: 34px;
+  width: 170px;
+}
+
+.robux-favorable-conditions-item-form-left input {
+  width: 148px;
+  height: 38px;
+  margin-bottom: 28px;
+  background: linear-gradient(180deg, rgba(240, 84, 84, 0.35) 0%, rgba(221, 221, 221, 0.35) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: inset 0px 1px 7px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.214;
+  color: #fff;
+  text-align: center;
+}
+
+.robux-favorable-conditions-item-form-left input::placeholder{
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.214;
+  color: #fff;
+}
+
+.robux-favorable-conditions-item-form-left img{
+  width: 170px;
+}
+
+.robux-favorable-conditions-item-form-radioinput-title{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.robux-favorable-conditions-item-form-radioinput-title img{
+  width: 20px;
+  margin-right: 4px;
+}
+
+.robux-favorable-conditions-item-form-radioinput-title.ruble img{
+  width: 13px;
+  margin-right: 4px;
+  margin-left: 7px;
+}
+
+.robux-favorable-conditions-item-form-radioinput-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.robux-favorable-conditions-item-form-radioinput{
+  width: 91px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.robux-favorable-conditions-item-form-radioinput.green .robux-favorable-conditions-item-form-radioinput-dotnum{
+  background-color: #09B49F;
+  width: 100%;
+}
+
+.robux-favorable-conditions-item-form-radioinput.green .robux-favorable-conditions-item-form-radioinput-dot{
+  border: 1px solid #09B49F;
+}
+
+.robux-favorable-conditions-item-form-radioinput-dotnum{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #FFC93D;
+}
+
+.robux-favorable-conditions-item-form-radioinput-dot{
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #FFC93D;
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+
+.robux-favorable-conditions-item-form-radioinput-num{
+  position: absolute;
+  bottom: 100%;
+  right: -4px;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.robux-favorable-conditions-item-form-card{
+  width: 116px;
+  height: 17px;
+  background-color: #222831;
+  border-radius: 10px;
+  position: relative;
+  display: none;
+}
+
+.robux-favorable-conditions-item-form-card-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.214;
+  font-family: 'Gilroy';
+  font-weight: bold;
+  color: #DDDDDD;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+.robux-modal-paymethod-item-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.robux-modal-paymethod{
+  width: 300px;
+  height: 700px;
+  border-radius: 30px;
+  background: #111;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 34px;
+  background-image: url(img/pattern-1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.robux-modal-paymethod h2{
+  font-size: 18px;
+  line-height: 1.222;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.robux-modal-paymethod a{
+  display: block;
+  width: 100px;
+  margin-bottom: 24px;
+}
+
+#groups h2{
+  font-size: 24px;
+  line-height: 1.208;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.robux-modal-paymethod h3{
+  font-size: 18px;
+  line-height: 1.222;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.groups-count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.groups-count-num{
+  font-size: 48px;
+  line-height: 1.208;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.groups-count img{
+  width: 51px;
+  height: 51px;
+}
+
+.groups-btn{
+  width: 160px;
+  height: 35px;
+  border-radius: 20px;
+  background: conic-gradient(from 180deg at 50% 50%, #F05454 -54.89deg, #FFC93D 64.78deg, #09B49F 170.63deg, #F05454 305.11deg, #FFC93D 424.78deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.groups-btn:hover .groups-btn-inner{
+  background-color: transparent;
+}
+
+.groups-btn-inner{
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.23;
+  font-weight: 700;
+  color: #fff;
+  background-color: #111;
+  transition: .5s;
+}
+
+.groups-info-text{
+  font-size: 13px;
+  line-height: 1.153;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.groups-items{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#groups{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 540px;
+}
+
+#groups2 h4{
+  font-size: 12px;
+  line-height: 1.833;
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#groups2 h5{
+  font-size: 12px;
+  line-height: 1.166;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#groups2 .groups-btn-inner{
+  font-size: 12px;
+  line-height: 1.166;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+#groups2{
+  height: 632px;
+}
+
+.robux-modal-paymethod a.groups-item{
+  width: 70px;
+  height: 28px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #F05454 0%, rgba(241, 46, 46, 0) 100%);
+  font-size: 9px;
+  line-height: 1.222;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robux-favorable-conditions-item-form-card-dot{
+  border-radius: 10px;
+  width: 27px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #F0B254;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.robux-favorable-conditions-item-form-card-dot img{
+  width: 12px;
+}
+
+.robux-favorable-conditions-item-form-button{
+  position: absolute;
+  width: 338px;
+  height: 37px;
+  bottom: -71px;
+  left: calc(50% - (338px / 2));
+  background: conic-gradient(from 180deg at 50% 50%, #09B49F 0deg, #F05454 90deg, #FFC93D 210deg, #09B49F 360deg);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.robux-favorable-conditions-item-form-button:hover .robux-favorable-conditions-item-form-button-inner{
+  background-color: transparent;
+}
+
+.robux-favorable-conditions-item-form-button-inner{
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #222831;
+  transition: .5s;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: 'Gilroy';
+  color: #fff;
+}
+
+.robux-favorable-conditions-item-form.mob{
+  display: none;
+}
+
+@media (max-width: 1840px) {
+  .robux-favorable-conditions-item {
+    max-width: 94.583vw;
+    height: 20.833vw;
+    margin-top: 7.846vw;
+    padding: 3.437vw 0;
+  }
+  .robux-favorable-conditions-item-title {
+    font-size: 1.875vw;
+    width: 26.77vw;
+  }
+  .robux-favorable-conditions-item-btn-robux {
+    font-size: 1.562vw;
+    border-radius: 1.302vw;
+    width: 14.322vw;
+    height: 3.854vw;
+  }
+  .robux-favorable-conditions-item-hero-img {
+    width: 25.104vw;
+    top: -4.687vw;
+    left: 0.572vw;
+  }
+  .robux-favorable-conditions-item-content {
+    margin-left: 25.833vw;
+    margin-right: 5.52vw;
+  }
+  .robux-favorable-conditions-item-btns {
+    width: 29.062vw;
+  }
+  .robux-favorable-conditions-figure-img {
+    width: 8.645vw;
+    top: 18.541vw;
+  }
+  .robux-main-vector-1 {
+    width: 26.302vw;
+    height: 31.458vw;
+    top: 29.114vw;
+    left: 25.468vw;
+  }
+  .robux-info {
+    margin-top: 16.562vw;
+    padding-left: 2.083vw;
+  }
+  .robux-info-items {
+    max-width: 63.125vw;
+    box-shadow: inset 0.52vw -0.52vw 0.52vw rgba(165, 165, 165, 0.412),
+      inset -0.52vw 0.52vw 0.52vw rgba(255, 255, 255, 0.412);
+    backdrop-filter: blur(5.26vw);
+    border-radius: 3.125vw;
+    padding-top: 3.385vw;
+    padding-bottom: 3.541vw;
+    margin-right: 4.322vw;
+  }
+  .robux-info-item {
+    max-width: 13.75vw;
+    margin-right: 4.895vw;
+  }
+  .robux-info-item img {
+    width: 3.697vw;
+    height: 3.697vw;
+    margin-bottom: 1.197vw;
+  }
+  .robux-info-item-title {
+    font-size: 1.25vw;
+    margin-bottom: 1.041vw;
+  }
+  .robux-info-item-text {
+    font-size: 0.833vw;
+  }
+  .robux-info-figure-img {
+    top: 11.979vw;
+    left: 58.072vw;
+    width: 8.802vw;
+  }
+  .robux-info-img {
+    width: 25.572vw;
+    right: 4.687vw;
+  }
+  .robux-our-statistics {
+    margin-top: 4.843vw;
+  }
+  .robox-our-statistics-title {
+    font-size: 1.875vw;
+    margin-bottom: 2.76vw;
+    margin-left: -3.645vw;
+  }
+  .robox-our-statistics-item {
+    margin-right: 6.458vw;
+  }
+  .robox-our-statistics-item-num {
+    font-size: 1.875vw;
+  }
+  .robox-our-statistics-item-title {
+    font-size: 1.875vw;
+    margin-bottom: 0.885vw;
+    margin-top: 0.364vw;
+  }
+  .robux-our-statistics-graphic {
+    width: 15.104vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-our-statistics-graphic-white {
+    width: 5.52vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-our-statistics-graphic-red {
+    width: 15.104vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-our-statistics-graphic-white-2 {
+    width: 11.093vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-our-statistics-graphic-yellow {
+    width: 15.104vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-our-statistics-graphic-white-3 {
+    width: 4.687vw;
+    height: 1.354vw;
+    border-radius: 1.041vw;
+  }
+  .robux-reviews {
+    margin-top: 9.843vw;
+  }
+  .robux-main-vector-2 {
+    width: 17.968vw;
+    height: 41.666vw;
+    top: -35.156vw;
+    left: 11.77vw;
+  }
+  .robux-reviews-info-title {
+    font-size: 2.5vw;
+    margin-bottom: 1.979vw;
+  }
+  .robux-reviews-info-text {
+    font-size: 1.25vw;
+    padding-bottom: 15.416vw;
+  }
+  .robux-reviews-info {
+    width: 28.958vw;
+    margin-right: 6.718vw;
+  }
+  .robux-reviews-info-youtube-img {
+    width: 31.458vw;
+    top: -3.645vw;
+    left: 30.52vw;
+  }
+  .robux-reviews-info-hero {
+    width: 22.604vw;
+    left: 5.572vw;
+  }
+  .robux-figure-questions {
+    top: -10.104vw;
+    left: 15.208vw;
+    width: 8.75vw;
+  }
+  .robux-main-vector-3 {
+    width: 72.916vw;
+    height: 20.26vw;
+    top: -25.208vw;
+    left: 11.718vw;
+  }
+  .robux-main-vector-4 {
+    top: 16.875vw;
+    right: 0.052vw;
+    width: 25.677vw;
+  }
+  .robux-questions-info {
+    margin-top: 16.562vw;
+    padding-bottom: 8.229vw;
+  }
+  .robux-questions-info-title {
+    font-size: 2.5vw;
+    margin-bottom: 0.781vw;
+  }
+  .robux-questions-info-subtitle {
+    font-size: 1.25vw;
+  }
+  .robux-questions-info-button {
+    backdrop-filter: blur(2.604vw);
+    border-radius: 1.302vw;
+    width: 10.416vw;
+    height: 4.427vw;
+    font-size: 0.937vw;
+    margin-top: 2.552vw;
+  }
+  .robux-questions-info-btn {
+    width: 1.562vw;
+    height: 1.562vw;
+    margin-right: 0.26vw;
+  }
+  .robux-questions-img {
+    width: 29.27vw;
+    top: -11.979vw;
+    right: 2.656vw;
+  }
+  .robux-favorable-conditions-item-form{
+    width: 22.608vw;
+    padding-top: .652vw;
+    padding-bottom: .706vw;
+    padding-left: .923vw;
+    border-radius: 1.086vw;
+  }
+  .robux-favorable-conditions-item-form-title{
+    margin-bottom: 1.25vw;
+    font-size: .652vw;
+  }
+  .robux-favorable-conditions-item-form-title img{
+    width: 1.304vw;
+    margin-right: .815vw;
+  }
+  .robux-favorable-conditions-item-form-left {
+    margin-right: 1.847vw;
+    width: 9.239vw;
+  }
+  .robux-favorable-conditions-item-form-left input {
+    width: 8.043vw;
+    height: 2.065vw;
+    margin-bottom: 1.521vw;
+    border-radius: .543vw;
+    font-size: .76vw;
+  }
+  .robux-favorable-conditions-item-form-left input::placeholder{
+    font-size: .76vw;
+  }
+  .robux-favorable-conditions-item-form-left img{
+    width: 9.239vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-title{
+    font-size: .76vw;
+    margin-bottom: .652vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-title img{
+    width: 1.086vw;
+    margin-right: .217vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-title.ruble img{
+    width: .706vw;
+    margin-right: .217vw;
+    margin-left: .38vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-wrap{
+    margin-bottom: 1.358vw;
+    align-items: flex-start;
+  }
+  .robux-favorable-conditions-item-form-radioinput{
+    width: 4.945vw;
+    height: .271vw;
+    border-radius: .543vw;
+  }
+  .robux-favorable-conditions-item-form-card{
+    width: 116px;
+    height: .923vw;
+    border-radius: .543vw;
+  }
+  .robux-favorable-conditions-item-form-card-text{
+    font-size: .76vw;
+  }
+  .robux-favorable-conditions-item-form-card-dot{
+    border-radius: .543vw;
+    width: 1.467vw;
+  }
+  .robux-favorable-conditions-item-form-card-dot img{
+    width: .652vw;
+  }
+  .robux-favorable-conditions-item-form-button{
+    width: 18.369vw;
+    height: 2.01vw;
+    bottom: -3.858vw;
+    left: calc(50% - (18.369vw / 2));
+    border-radius: .543vw;
+  }
+  .robux-favorable-conditions-item-form-button-inner{
+    border-radius: .543vw;
+    font-size: .978vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .robux-favorable-conditions-item {
+    height: auto;
+    flex-direction: column;
+    width: calc(100vw - 60px);
+    padding-top: 5.333vw;
+    padding-bottom: 12vw;
+    background-image: url(img/banner-wrapper-mob.png);
+    border-radius: 4vw;
+    margin-top: 10.666vw;
+  }
+  .robux-favorable-conditions-item-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .robux-favorable-conditions-item-title {
+    font-size: 4.8vw;
+    width: 66.666vw;
+    margin-bottom: 7.733vw;
+  }
+  .robux-favorable-conditions-item-btns {
+    padding-left: 39.733vw;
+  }
+  .robux-favorable-conditions-item-btn {
+    font-size: 2.4vw;
+    width: 29.866vw;
+    height: 10.4vw;
+    border-radius: 5.333vw;
+    margin-bottom: 3.2vw;
+  }
+  .robux-favorable-conditions-item-btn img {
+    height: 4.8vw !important;
+    width: auto !important;
+    margin-right: 0 !important;
+    margin-left: 2.933vw;
+  }
+  .robux-favorable-conditions-item-btn-3 {
+    margin-bottom: 0;
+  }
+  .robux-favorable-conditions-item-hero-img {
+    width: 30.666vw;
+    left: -7.733vw;
+    top: 16vw;
+  }
+  .robux-favorable-conditions-figure-img {
+    width: 23.2vw;
+    left: -5.6vw;
+    bottom: -5.066vw;
+    top: auto;
+  }
+  .robux-info {
+    padding: 0;
+    margin-top: 32.266vw;
+  }
+  .robux-info-items {
+    max-width: calc(100vw - 130px);
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    padding: 6.133vw 0;
+    z-index: 1;
+    align-items: center;
+  }
+  .robux-info-item {
+    margin-bottom: 25.066vw;
+    max-width: 48vw;
+    margin-right: 0;
+  }
+  .robux-info-item img {
+    width: 14.666vw;
+    height: 14.666vw;
+    margin-bottom: 2.4vw;
+  }
+  .robux-info-item-title {
+    font-size: 6.4vw;
+    margin-bottom: 6.4vw;
+  }
+  .robux-info-item-text {
+    font-size: 3.2vw;
+  }
+  .robux-info-img {
+    right: 3.733vw;
+    top: 53.333vw;
+    z-index: 2;
+    width: 34.133vw;
+  }
+  .robux-info-figure-img {
+    width: 15.733vw;
+    bottom: 16.533vw;
+    right: 3.733vw;
+    z-index: 0;
+    top: auto;
+    left: auto;
+  }
+  .robox-our-statistics-title {
+    font-size: 3.2vw;
+    margin-bottom: 4.8vw;
+  }
+  .robux-our-statistics-items {
+    flex-direction: column-reverse;
+    width: 34.666vw;
+    margin-left: 48vw;
+  }
+  .robox-our-statistics-item {
+    margin-right: 0;
+    margin-bottom: 8.533vw;
+    align-items: flex-start;
+  }
+  .robox-our-statistics-item-num {
+    font-size: 3.2vw;
+    margin-left: 6.4vw;
+  }
+  .robox-our-statistics-item-title {
+    font-size: 3.2vw;
+    margin-bottom: 3.2vw;
+  }
+  .robux-reviews-info-hero {
+    top: -66.666vw;
+    left: 6.133vw;
+    width: 34.133vw;
+  }
+  .robux-reviews-info {
+    width: 85.333vw;
+  }
+  .robux-reviews-info-title {
+    font-size: 3.466vw;
+    margin-bottom: 6.4vw;
+  }
+  .robux-reviews-info-text {
+    font-size: 3.466vw;
+    padding-bottom: 0;
+    margin-bottom: 2.666vw;
+  }
+  .robux-reviews-info-youtube-img {
+    position: static;
+    width: 100%;
+  }
+  .robux-questions-info {
+    margin-top: 55.2vw;
+    padding-bottom: 0;
+  }
+  .robux-questions-info-title {
+    font-size: 3.2vw;
+    margin-bottom: 6.4vw;
+  }
+  .robux-questions-info-subtitle {
+    font-size: 3.2vw;
+  }
+  .robux-questions-info-button {
+    margin-top: 8vw;
+    font-size: 3.2vw;
+    width: 34.666vw;
+    height: 13.866vw;
+    border-radius: 4vw;
+  }
+  .robux-questions-info-btn {
+    width: 5.333vw;
+    height: 5.333vw;
+    margin-right: 1.066vw;
+  }
+  .robux-figure-questions {
+    width: 22.666vw;
+    left: -4.8vw;
+    top: -170.933vw;
+  }
+  .robux-questions-img {
+    width: 48vw;
+    right: 1.866vw;
+    top: -78.933vw;
+  }
+  .robux-footer {
+    padding-bottom: 16vw;
+  }
+  .robux-footer-inner {
+    margin-right: 0;
+    flex-direction: column;
+    margin-top: -15.2vw;
+  }
+  .robux-footer-inner img {
+    width: 9.6vw;
+    height: 9.6vw;
+    border-radius: 50%;
+  }
+  .robux-footer-inner a {
+    margin-bottom: 11.2vw;
+  }
+  .robux-footer-inner a:last-child {
+    margin-bottom: 0;
+  }
+  .robux-main-vector-1,
+  .robux-main-vector-2,
+  .robux-main-vector-3,
+  .robux-main-vector-4 {
+    display: none;
+  }
+  .robux-main-bg-mob {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 278.666vw;
+    z-index: 1;
+    width: 100%;
+  }
+  .robux-main-bg-mob img{
+      width: 100%;
+  }
+  .robux-favorable-conditions-item-form-title img{
+    width: 4.8vw;
+    margin-right: 1.066vw;
+  }
+  .robux-favorable-conditions-item-form-title{
+    font-size: 2.4vw;
+    margin-bottom: 5.866vw;
+  }
+  .robux-favorable-conditions-item-form{
+    display: none;
+  }
+  .robux-favorable-conditions-item-form.mob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44vw;
+    background: linear-gradient(180deg, #F05454 25%, rgba(255, 105, 105, 0) 100%);
+    border-radius: 5.333vw;
+    padding: 1.066vw 3.2vw;
+  }
+  .robux-favorable-conditions-item-form-left{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .robux-favorable-conditions-item-form-left input{
+    margin-bottom: 0;
+    width: 17.333vw;
+    height: 3.2vw;
+    background: linear-gradient(180deg, rgba(240, 84, 84, 0.35) 0%, rgba(221, 221, 221, 0.35) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 7px rgba(255, 255, 255, 0.25);
+    border-radius: .8vw;
+    margin-bottom: 4.266vw;
+    font-size: 1.866vw;
+  }
+  .robux-favorable-conditions-item-form-left input::placeholder{
+    font-size: 1.866vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-title{
+    font-size: 2.4vw;
+    margin-bottom: 1.866vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-num{
+    font-size: 1.333vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput{
+    width: 13.333vw;
+    height: .8vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-dot{
+    width: 1.066vw;
+    height: 1.066vw;
+    top: -.133vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-container{
+    display: flex;
+    align-items: center;
+  }
+  .robux-favorable-conditions-item-form-radioinput-container img{
+    width: 2.666vw;
+    margin-right: .266vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-container.green img{
+    width: 1.6vw;
+    margin-right: .266vw;
+    margin-left: 1.066vw;
+  }
+  .robux-favorable-conditions-item-form-radioinput-wrap:last-child{
+    margin-bottom: 0;
+  }
+  .robux-favorable-conditions-item-form-card{
+    width: 14.666vw;
+    height: 2.4vw;
+    border-radius: 2.666vw;
+  }
+  .robux-favorable-conditions-item-form-card-text{
+    font-size: 2.4vw;
+  }
+  .robux-favorable-conditions-item-form-card-dot{
+    width: 4vw;
+    border-radius: 2.666vw;
+  }
+  .robux-favorable-conditions-item-form-card-dot img{
+    width: 1.6vw;
+  }
+  .robux-favorable-conditions-item-form-button{
+    position: static;
+    box-shadow: inset 0px 1px 7px rgba(255, 255, 255, 0.25);
+    border-radius: .8vw;
+    width: 14.666vw;
+    height: 3.733vw;
+    background: linear-gradient(180deg, rgba(9, 180, 159, 0.35) 0%, rgba(0, 128, 255, 0.35) 100%);
+  }
+  .robux-favorable-conditions-item-form-button-inner{
+    border-radius: .8vw;
+    font-size: 2.4vw;
+    background: linear-gradient(180deg, rgba(240, 84, 84, 0.35) 0%, rgba(221, 221, 221, 0.35) 100%);
+  }
+  .robux-favorable-conditions-item-form-wrap{
+    justify-content: space-between;
+    width: 100%;
+  }
+  .robux-favorable-conditions-item-form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .robux-favorable-conditions-item-form-video-mob{
+    width: 21.333vw;
+    margin-top: 1.6vw;
+  }
+  .robux-favorable-conditions-item.robux-favorable-conditions-item-2{
+    padding-bottom: 0;
+  }
+  .robux-favorable-conditions-item.robux-favorable-conditions-item-2 .robux-favorable-conditions-item-btns{
+    padding-left: 0;
+    width: 100%;
+    align-items: flex-end;
+  }
+}

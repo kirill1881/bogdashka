@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" th:href="@{/reset.css}" />
+    <link rel="stylesheet" href="css/fonts.css" th:href="@{/fonts.css}"/>
+    <link rel="stylesheet" href="css/header.css" th:href="@{/header.css}" />
+    <link rel="stylesheet" href="css/footer.css" th:href="@{/footer.css}" />
+    <link rel="stylesheet" href="css/main.css" th:href="@{/main.css}" />
+    <link rel="stylesheet" href="css/buy-form.css" th:href="@{/buy-form.css}"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href=""
+            ><img src="img/logo.png" alt="" class="logo-desc" /><img
+              src="img/logo-mob.png"
+              alt=""
+              class="logo-mob"
+            />Bogdashka</a
+          >
+        </div>
+        <ul class="menu">
+          <li><a class="menu-item" href="">Конкурсы</a></li>
+          <li><a class="menu-item" href="/buy.html">Мои покупки</a></li>
+          <li><a class="menu-item" href="">250₽-1000R$</a></li>
+        </ul>
+        <a href="/buy-transfer.html" class="button-red">
+          <img src="img/btn-logo.png" alt="" />
+          Купить РОБУКСЫ
+        </a>
+      </nav>
+    </header>
+    <div id="paymethod" class="robux-modal-paymethod" style="display: none">
+      <h2>Выберите один из методов</h2>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod1.png" alt="" />
+        </a>
+        <a href="">
+          <img src="img/paymethod7.png" alt="" />
+        </a>
+      </div>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod2.png" alt="" />
+        </a>
+      </div>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod3.png" alt="" />
+        </a>
+      </div>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod4.png" alt="" />
+        </a>
+      </div>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod5.png" alt="" />
+        </a>
+      </div>
+      <div class="robux-modal-paymethod-item-row">
+        <a href="">
+          <img src="img/paymethod6.png" alt="" />
+        </a>
+      </div>
+    </div>
+    <div id="groups" class="robux-modal-paymethod" style="display: none">
+      <h2>Покупка</h2>
+      <h3>Вы хотите получить</h3>
+      <div class="groups-count">
+        <div class="groups-count-num">400</div>
+        <img src="img/robux-icon.png" alt="" />
+      </div>
+      <div class="groups-btn groups-btn-1">
+        <div class="groups-btn-inner">Купить</div>
+      </div>
+      <div class="groups-info-text">Список групп куда нужно вступить</div>
+      <div class="groups-items">
+        <a href="" class="groups-item">Сообщество</a>
+        <a href="" class="groups-item">Сообщество</a>
+        <a href="" class="groups-item">Сообщество</a>
+      </div>
+    </div>
+    <div id="groups2" class="robux-modal-paymethod" style="display: none">
+      <h2>Покупка</h2>
+      <h4>
+        к сожалению<br />по новым правилам<br />площадки roblox<br />вы должны
+        пробыть<br />в группах 14 дней<br />поэтому мы не можем<br />выплатить
+        вам робуксы<br />прямо сейчас<br />вступите в группы<br />и через 14
+        дней
+      </h4>
+      <h5>мы сможет выплатить вам робуксы<br />методом group</h5>
+      <div class="groups-btn groups-btn-2">
+        <div class="groups-btn-inner">Купить робуксы<br />другим методом</div>
+      </div>
+      <div class="groups-info-text">Список групп куда нужно вступить</div>
+      <div class="groups-items">
+        <a href="" class="groups-item">Сообщество</a>
+        <a href="" class="groups-item">Сообщество</a>
+        <a href="" class="groups-item">Сообщество</a>
+      </div>
+    </div>
+    <div class="buy-form-items">
+      <div class="buy-robux-items">
+        <div class="buy-robux-item-method">
+          <div class="buy-robux-item-method-titel">Групповой метод</div>
+          <div class="buy-robux-item-method-info">
+            <img src="img/buy-robux-method-users.png" alt="" />
+            <div class="buy-robux-item-method-info-text">
+              <div class="buy-robux-item-method-info-text-one">1₽=2R$</div>
+              <div class="buy-robux-item-method-info-text-two">Доступно:</div>
+            </div>
+          </div>
+          <div class="buy-robux-method-item-graphic">
+            <div class="buy-robux-method-item-graphic-white">
+              <div class="buy-robux-method-item-graphic-green"></div>
+            </div>
+          </div>
+        </div>
+        <div class="buy-robux-item-transfer">
+          <div class="buy-robux-item-transfer-titel">Трансфер</div>
+          <div class="buy-robux-item-transfer-info">
+            <img src="img/buy-robux-transfer.png" alt="" />
+            <div class="buy-robux-item-transfer-info-text">
+              <div class="buy-robux-item-transfer-info-text-one">1₽=1.58R$</div>
+              <div class="buy-robux-item-transfer-info-text-two">Доступно:</div>
+            </div>
+          </div>
+          <div class="buy-robux-transfer-item-graphic">
+            <div class="buy-robux-transfer-item-graphic-white">
+              <div class="buy-robux-transfer-item-graphic-yellow"></div>
+            </div>
+          </div>
+        </div>
+        <div class="buy-robux-item-logpass">
+          <div class="buy-robux-item-logpass-titel">Log+Pass</div>
+          <div class="buy-robux-item-logpass-info">
+            <img src="img/buy-robux-logpass.png" alt="" />
+            <div class="buy-robux-item-logpass-info-text">
+              <div class="buy-robux-item-logpass-info-text-one">1₽=1.86R$</div>
+              <div class="buy-robux-item-logpass-info-text-two">Доступно:</div>
+            </div>
+          </div>
+          <div class="buy-robux-logpass-item-graphic">
+            <div class="buy-robux-logpass-item-graphic-white">
+              <div class="buy-robux-logpass-item-graphic-red"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form action="/buy" method="post" class="buy-form-1 active">
+      <div class="buy-form">
+        <div class="buy-form-hero-1">
+          <img class="hero-img" src="img/hero1.png" alt="" />
+          <img class="dialog" src="img/hero-say-left.png" alt="" />
+          <img class="form-line" src="img/buy-form-line-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-2">
+          <img class="hero-img" src="img/hero2-2.png" alt="" />
+          <img class="dialog" src="img/hero-say-right.png" alt="" />
+        </div>
+        <div class="buy-form-hero-3">
+          <img class="hero-img" src="img/hero3.png" alt="" />
+          <img class="form-line" src="img/buy-form-line2-bg.png" alt="" />
+          <img class="form-line2" src="img/buy-form-line3-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-4">
+          <img class="hero-img" src="img/hero4.png" alt="" />
+          <img class="form-line" src="img/buy-form-line4-bg.png" alt="" />
+        </div>
+        <img
+          src="img/robux-favorable-conditions-figure-img.png"
+          alt=""
+          class="buy-form-sqr-1"
+        />
+        <img
+          src="img/robux-info-figure-img.png"
+          alt=""
+          class="buy-form-sqr-2"
+        />
+        <img
+          src="img/robux-figure-questions.png"
+          alt=""
+          class="buy-form-sqr-3"
+        />
+        <img src="img/robux-info-rad-img.png" alt="" class="buy-form-sqr-4" />
+        <div class="buy-form-inner">
+          <h2 class="buy-form-title">Покупка робуксов</h2>
+          <div class="buy-form-subtitle-wrapper">
+            <h3 class="buy-form-subtitle">
+              Покупая робуксы из группы вы получаете их через шестнадцать дней
+              на свой аккаунт
+            </h3>
+            <div class="buy-form-subtitle-field">
+              <input type="text" placeholder="Промокод(если есть)" />
+            </div>
+          </div>
+          <div class="buy-form-field">
+            <img src="img/user-icon.png" alt="" class="buy-form-input-icon" />
+            <input
+              type="text"
+              name="username"
+              placeholder="ввдеите никнэйм(username)"
+            />
+            <span class="error">Заполните поле</span>
+          </div>
+          <div class="buy-form-eq-container">
+            <div class="buy-form-info-text">
+              Для получения робуксов Вам необходимо вступить в нашу группу
+            </div>
+            <div class="buy-form-eq-field">
+              <img src="img/wallet-icon.png" alt="" />
+              <input type="text" class="rubbles-input" name="robox" placeholder="Р&#36;"/>
+            </div>
+           <!-- <img class="buy-form-eq-icon" src="img/equal-icon.png" alt="" />-->
+            <!--<div class="buy-form-eq-field blue">
+              <img src="img/union-icon.png" alt="" />
+              <input
+                type="number"
+                class="rubbles-input"
+                placeholder="1.86 Р&#36;"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+          </div>-->
+          <div class="buy-form-submit mob buy-logpass-btn">
+            <div class="buy-form-submit-inner">
+              <img src="img/bag-icon.png" alt="" />
+              Купить
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buy-form-submit buy-group-btn">
+        <button type="submit" class="buy-form-submit-inner">Купить</button>
+      </div>
+    </div>
+    <div class="buy-form-2">
+      <div class="buy-form">
+        <div class="buy-form-hero-1">
+          <img class="hero-img" src="img/hero1.png" alt="" />
+          <img class="dialog" src="img/hero-say-left.png" alt="" />
+          <img class="form-line" src="img/buy-form-line-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-2">
+          <img class="hero-img" src="img/hero2-2.png" alt="" />
+          <img class="dialog" src="img/hero-say-right.png" alt="" />
+        </div>
+        <div class="buy-form-hero-3">
+          <img class="hero-img" src="img/hero3.png" alt="" />
+          <img class="form-line" src="img/buy-form-line2-bg.png" alt="" />
+          <img class="form-line2" src="img/buy-form-line3-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-4">
+          <img class="hero-img" src="img/hero4.png" alt="" />
+          <img class="form-line" src="img/buy-form-line4-bg.png" alt="" />
+        </div>
+        <img
+          src="img/robux-favorable-conditions-figure-img.png"
+          alt=""
+          class="buy-form-sqr-1"
+        />
+        <img
+          src="img/robux-info-figure-img.png"
+          alt=""
+          class="buy-form-sqr-2"
+        />
+        <img
+          src="img/robux-figure-questions.png"
+          alt=""
+          class="buy-form-sqr-3"
+        />
+        <img src="img/robux-info-rad-img.png" alt="" class="buy-form-sqr-4" />
+        <div class="buy-form-inner">
+          <h2 class="buy-form-title">Покупка через трансфер</h2>
+          <h3 class="buy-form-subtitle">
+            Покупая робуксы трансфером вы получаете робуксы сразу, с зачислением
+            через 5 дней
+          </h3>
+          <div class="buy-form-field">
+            <img src="img/user-icon.png" alt="" class="buy-form-input-icon" />
+            <input
+              type="text"
+              name="trans-name"
+              placeholder="ввдеите никнэйм(username)"
+            />
+            <span class="error">Заполните поле</span>
+          </div>
+          <div class="buy-form-eq-container">
+            <div class="buy-form-eq-field">
+              <img src="img/wallet-icon.png" alt="" />
+              <input
+                type="number"
+                class="rubbles-input"
+                placeholder="1&#8381;"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+            <img class="buy-form-eq-icon" src="img/equal-icon.png" alt="" />
+            <div class="buy-form-eq-field blue">
+              <img src="img/union-icon.png" alt="" />
+              <input
+                type="number"
+                class="robux-input"
+                placeholder="1.86 Р&#36;"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+          </div>
+          <div class="buy-form-submit mob buy-transfer-btn">
+            <div class="buy-form-submit-inner">
+              <img src="img/bag-icon.png" alt="" />
+              Купить
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buy-form-submit buy-transfer-btn">
+        <div class="buy-form-submit-inner">Купить</div>
+      </div>
+    </div>
+    <div class="buy-form-3">
+      <div class="buy-form">
+        <div class="buy-form-hero-1">
+          <img class="hero-img" src="img/hero1.png" alt="" />
+          <img class="dialog" src="img/hero-say-left.png" alt="" />
+          <img class="form-line" src="img/buy-form-line-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-2">
+          <img class="hero-img" src="img/hero2-2.png" alt="" />
+          <img class="dialog" src="img/hero-say-right.png" alt="" />
+        </div>
+        <div class="buy-form-hero-3">
+          <img class="hero-img" src="img/hero3.png" alt="" />
+          <img class="form-line" src="img/buy-form-line2-bg.png" alt="" />
+          <img class="form-line2" src="img/buy-form-line3-bg.png" alt="" />
+        </div>
+        <div class="buy-form-hero-4">
+          <img class="hero-img" src="img/hero4.png" alt="" />
+          <img class="form-line" src="img/buy-form-line4-bg.png" alt="" />
+        </div>
+        <img
+          src="img/robux-favorable-conditions-figure-img.png"
+          alt=""
+          class="buy-form-sqr-1"
+        />
+        <img
+          src="img/robux-info-figure-img.png"
+          alt=""
+          class="buy-form-sqr-2"
+        />
+        <img
+          src="img/robux-figure-questions.png"
+          alt=""
+          class="buy-form-sqr-3"
+        />
+        <img src="img/robux-info-rad-img.png" alt="" class="buy-form-sqr-4" />
+        <div class="buy-form-inner">
+          <h2 class="buy-form-title">Log+Pass</h2>
+          <div class="buy-form-subtitle-wrapper">
+            <h3 class="buy-form-subtitle big">
+              Вам придет 6-ти значный код на привязанную почту, это новая защита
+              от роблокса 2-FA для новых устройств (не авторизованных никогда
+              ранее). Поэтому нам и нужна связь с вами (ссылка на соц.сеть:
+              Discord, VK, Instagram)
+            </h3>
+            <div class="buy-form-subtitle-field">
+              <input
+                type="text"
+                name="logpasssoc"
+                placeholder="Ссылка на вашу соц.сеть"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+          </div>
+          <div class="buy-form-field">
+            <img src="img/user-icon.png" alt="" class="buy-form-input-icon" />
+            <input
+              type="text"
+              name="logpass-name"
+              placeholder="ввдеите никнэйм(username)"
+            />
+            <span class="error">Заполните поле</span>
+          </div>
+          <div class="buy-form-eq-container">
+            <div class="buy-form-eq-field">
+              <img src="img/wallet-icon.png" alt="" />
+              <input
+                type="number"
+                class="rubbles-input"
+                placeholder="1&#8381;"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+            <img class="buy-form-eq-icon" src="img/equal-icon.png" alt="" />
+            <div class="buy-form-eq-field blue">
+              <img src="img/union-icon.png" alt="" />
+              <input
+                type="number"
+                class="robux-input"
+                placeholder="1.86 Р&#36;"
+              />
+              <span class="error">Заполните поле</span>
+            </div>
+          </div>
+          <div class="buy-form-submit buy-logpass-btn mob">
+            <div class="buy-form-submit-inner">
+              <img src="img/bag-icon.png" alt="" />
+              Купить
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buy-form-submit buy-logpass-btn">
+        <div class="buy-form-submit-inner">Купить</div>
+      </div>
+    </div>
+    <a data-fancybox="gallery" href="#paymethod" class="open-paymethod-btn"></a>
+
+    <footer>
+      <div class="robux-footer">
+        <div class="robux-footer-inner">
+          <a href=""><img src="img/youtube-icon.png" alt="" /></a>
+          <a href=""><img src="img/vk-icon.png" alt="" /></a>
+          <a href=""><img src="img/instagram-icon.png" alt="" /></a>
+          <a href=""><img src="img/twitter-icon.png" alt="" /></a>
+          <a href=""><img src="img/tiktok-icon.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/buy-methods.js"></script>
+  </body>
+</html>

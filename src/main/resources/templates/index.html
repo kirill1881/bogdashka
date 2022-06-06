@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../static/css/reset.css" th:href="@{/reset.css}" rel="stylesheet" />
+    <link href="../static/css/fonts.css" th:href="@{/fonts.css}" rel="stylesheet" />
+    <link href="../static/css/main.css" th:href="@{/main.css}" rel="stylesheet" />
+    <link href="../static/css/header.css" th:href="@{/header.css}" rel="stylesheet" />
+    <link href="../static/css/footer.css" th:href="@{/footer.css}" rel="stylesheet" />
+
+    <resource mapping=""/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="/"
+            ><img src="../static/img/logo.png"  th:src="@{/img/logo.png}" alt="" class="logo-desc" /><img
+              src="../static/img/logo-mob.png"
+              alt=""
+              class="logo-mob"
+            />Bogdashka</a
+          >
+        </div>
+        <ul class="menu">
+          <li><a class="menu-item" href="">Конкурсы</a></li>
+          <li><a class="menu-item" href="/buy.html">Мои покупки</a></li>
+          <li><a class="menu-item" href="">250₽-1000R$</a></li>
+        </ul>
+        <a href="/buy-methods" class="button-red">
+          <img src="../static/img/btn-logo.png"  th:src="@{/img/btn-logo.png}" alt="" />
+          Купить РОБУКСЫ
+        </a>
+      </nav>
+    </header>
+    <div class="robux-main-bg-mob">
+      <img src="../static/img/main-bg-mob.png"  th:src="@{/img/main-bg-mob.png}" alt="" />
+    </div>
+    <div class="robux-favorable-conditions">
+      <div class="robux-favorable-conditions-item">
+        <img
+          class="robux-favorable-conditions-item-hero-img"
+          src="../static/img/hero1.png"
+          th:src="@{/img/hero1.png}"
+          alt=""
+        />
+        <div class="robux-favorable-conditions-item-content">
+          <div class="robux-favorable-conditions-item-title">
+            Робуксы по самым выгодным условиям
+          </div>
+          <a
+            href="/buy-methods"
+            class="robux-favorable-conditions-item-btn-robux"
+          >
+            Купить Робуксы
+          </a>
+        </div>
+        <div class="robux-favorable-conditions-item-btns">
+          <a
+            href="/group-method.html"
+            class="robux-favorable-conditions-item-btn-1 robux-favorable-conditions-item-btn"
+          >
+            <img src="../static/img/robux-favorable-conditions-btn-img-1.png"
+                 th:src="@{/img/robux-favorable-conditions-btn-img-1.png}"
+                 alt="" />
+            <p>Групповой метод</p>
+          </a>
+          <a
+            href="/logpass.html"
+            class="robux-favorable-conditions-item-btn-2 robux-favorable-conditions-item-btn"
+          >
+            <img src="../static/img/robux-favorable-conditions-btn-img-2.png"
+                 th:src="@{/img/robux-favorable-conditions-btn-img-2.png}"
+                 alt="" />
+            <p>Log+Pass</p>
+          </a>
+          <a
+            href="/transfer.html"
+            class="robux-favorable-conditions-item-btn-3 robux-favorable-conditions-item-btn"
+          >
+            <img src="../static/img/robux-favorable-conditions-btn-img-3.png"
+                 th:src="@{/img/robux-favorable-conditions-btn-img-3.png}"
+                 alt="" />
+            <p>Трансфер</p>
+          </a>
+        </div>
+        <img
+          class="robux-favorable-conditions-figure-img"
+          src="../static/img/robux-favorable-conditions-figure-img.png"
+          th:src="@{/img/robux-favorable-conditions-figure-img.png}"
+          alt=""
+        />
+      </div>
+      <img
+        class="robux-main-vector-1"
+        src="../static/img/robux-main-vector-1.png"
+        th:src="@{/img/robux-main-vector-1.png}"
+        alt=""
+      />
+    </div>
+    <div class="robux-info">
+      <div class="robux-info-items">
+        <div class="robux-info-item">
+          <img src="../static/img/robux-info-item-img-1.png"
+               th:src="@{/img/robux-info-item-img-1.png}"
+               alt="" />
+          <div class="robux-info-item-title">Лучшая цена</div>
+          <div class="robux-info-item-text">
+            <p>Мы продаем робуксы по самой выгодной цене на рынке</p>
+          </div>
+        </div>
+        <div class="robux-info-item">
+          <img src="../static/img/robux-info-item-img-2.png"
+               th:src="@{/img/robux-info-item-img-2.png}"
+               alt="" />
+          <div class="robux-info-item-title">Безопастность</div>
+          <div class="robux-info-item-text">
+            <p>Мы работаем официально и дорожим нашей репутацией</p>
+          </div>
+        </div>
+        <div class="robux-info-item">
+          <img src="../static/img/robux-info-item-img-3.png"
+               th:src="@{/img/robux-info-item-img-3.png}"
+               alt="" />
+          <div class="robux-info-item-title">Скорость</div>
+          <div class="robux-info-item-text">
+            <p>Не надо ждать! Робуксы мгновенно появятся у тебя</p>
+          </div>
+        </div>
+      </div>
+      <img
+        class="robux-info-figure-img"
+        src="../static/img/robux-info-figure-img.png"
+        th:src="@{/img/robux-info-figure-img.png}"
+
+        alt=""
+      />
+      <img class="robux-info-img" src="../static/img/hero2.png"
+           th:src="@{/img/hero2.png}"
+           alt="" />
+    </div>
+    <div class="robux-our-statistics">
+      <div class="robox-our-statistics-title">Наша статистика</div>
+      <div class="robux-our-statistics-items">
+        <div class="robox-our-statistics-item">
+          <div class="robox-our-statistics-item-num">156</div>
+          <div class="robox-our-statistics-item-title">Онлайн на сайте</div>
+          <div class="robux-our-statistics-graphic">
+            <div class="robux-our-statistics-graphic-white"></div>
+          </div>
+        </div>
+        <div class="robox-our-statistics-item">
+          <div class="robox-our-statistics-item-num">3.569 R$</div>
+          <div class="robox-our-statistics-item-title">Доступно сейчас</div>
+          <div class="robux-our-statistics-graphic-red">
+            <div class="robux-our-statistics-graphic-white-2"></div>
+          </div>
+        </div>
+        <div class="robox-our-statistics-item">
+          <div class="robox-our-statistics-item-num">2.897.126 R$</div>
+          <div class="robox-our-statistics-item-title">
+            Продано за все время
+          </div>
+          <div class="robux-our-statistics-graphic-yellow">
+            <div class="robux-our-statistics-graphic-white-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="robux-reviews">
+      <div class="robux-reviews-info">
+        <div class="robux-reviews-info-title">Отзывы</div>
+        <div class="robux-reviews-info-text">
+          Реальные отзывы о работе нашего сервиса от реальных людей
+        </div>
+        <img
+          class="robux-reviews-info-youtube-img"
+          src="../static/img/robux-reviews-youtube-img.png"
+          th:src="@{/img/robux-reviews-youtube-img.png}"
+          alt=""
+        />
+        <img class="robux-reviews-info-hero" src="../static/img/hero3.png"
+             th:src="@{/img/hero3.png}"
+             alt="" />
+      </div>
+      <img
+        class="robux-main-vector-2"
+        src="../static/img/robux-main-vector-2.png"
+        th:src="@{/img/robux-main-vector-2.png}"
+
+        alt=""
+      />
+    </div>
+    <div class="robux-questions">
+      <div class="robux-questions-info">
+        <div class="robux-questions-info-title">Остались вопросы?</div>
+        <div class="robux-questions-info-subtitle">мы всегда на связи</div>
+        <div class="robux-questions-info-button">
+          <img
+            class="robux-questions-info-btn"
+            src="../static/img/message-circle.png"
+            th:src="@{/img/message-circle.png}"
+            alt=""
+          />
+          <p>Тех.Поддержка</p>
+        </div>
+      </div>
+      <img class="robux-questions-img"
+
+           src="../static/img/hero4.png"
+           th:src="@{/img/hero4.png}"
+           alt="" />
+      <img
+        class="robux-main-vector-3"
+        src="../static/img/robux-main-vector-3.png"
+        th:src="@{/img/robux-main-vector-3.png}"
+
+        alt=""
+      />
+      <img
+        class="robux-main-vector-4"
+        src="../static/img/robux-main-vector-4.png"
+        th:src="@{/img/robux-main-vector-4.png}"
+        alt=""
+      />
+      <img
+        class="robux-figure-questions"
+        src="../static/img/robux-figure-questions.png"
+        th:src="@{/img/robux-figure-questions.png}"
+        alt=""
+      />
+    </div>
+    <footer>
+      <div class="robux-footer">
+        <div class="robux-footer-inner">
+          <a href=""><img src="../static/img/youtube-icon.png" th:src="@{/img/youtube-icon.png}" alt="" /></a>
+          <a href=""><img src="../static/img/vk-icon.png" th:src="@{/img/vk-icon.png}" alt="" /></a>
+          <a href=""><img src="../static/img/instagram-icon.png" th:src="@{/img/instagram-icon.png}" alt="" /></a>
+          <a href=""><img src="../static/img/twitter-icon.png" th:src="@{/img/twitter-icon.png}" alt="" /></a>
+          <a href=""><img src="../static/img/tiktok-icon.png" th:src="@{/img/tiktok-icon.png}" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    ></script>
+  </body>
+</html>

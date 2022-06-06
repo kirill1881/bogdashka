@@ -1,0 +1,951 @@
+.buy-robux-item-method-info {
+  display: flex;
+}
+
+.buy-robux {
+  padding-top: 632px;
+  padding-bottom: 654px;
+}
+
+.buy-robux-items {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 2000;
+}
+
+.buy-robux-item-method {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  margin-right: 32px;
+}
+
+.buy-robux-item-method-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-method-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-method-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-method-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-method-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-item-method {
+  /*border: 2px solid #fff;*/
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #f05454 0%,
+    #0080ff 100%
+  );
+}
+
+.buy-robux-method-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-method-item-graphic-green {
+  width: 124px;
+  height: 5px;
+  background: #09b49f;
+  border-radius: 5px;
+}
+
+.buy-robux-method-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+/* buy-robux-transfer */
+
+.buy-robux-item-transfer-info {
+  display: flex;
+}
+
+.buy-robux-item-transfer {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.buy-robux-item-transfer-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-transfer-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-transfer-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-transfer-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-transfer-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-item-transfer {
+  /*border: 2px solid;*/
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #f05454 0%,
+    #ad00ff 100%
+  );
+}
+
+.buy-robux-transfer-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-transfer-item-graphic-yellow {
+  width: 55px;
+  height: 5px;
+  background: #ffc93d;
+  border-radius: 5px;
+}
+
+.buy-robux-transfer-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+/* buy-robux-loggpass */
+
+.buy-robux-item-logpass-info {
+  display: flex;
+}
+
+.buy-robux-item-logpass {
+  padding-top: 6px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.buy-robux-item-logpass-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.055;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.buy-robux-item-logpass-info-text-one {
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1.11;
+  color: #fff;
+}
+
+.buy-robux-item-logpass-info-text-two {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.083;
+  color: #fff;
+}
+
+.buy-robux-item-logpass-info img {
+  width: 31px;
+  height: 31px;
+  margin-left: 7px;
+}
+
+.buy-robux-item-logpass-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.buy-robux-item-logpass {
+  /*border: 2px solid #fff;*/
+  border-radius: 20px;
+  width: 252px;
+  height: 79px;
+  background: radial-gradient(
+    100% 266.67% at 0% 49.33%,
+    #0080ff 0%,
+    #09b49f 100%
+  );
+}
+
+.buy-robux-logpass-item-graphic-white {
+  width: 144px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.buy-robux-logpass-item-graphic-red {
+  width: 25px;
+  height: 5px;
+  background: #f05454;
+  border-radius: 5px;
+}
+
+.buy-robux-logpass-item-graphic {
+  display: flex;
+  justify-content: center;
+}
+
+/* buy-robux-banner */
+
+.buy-robux-banner {
+  width: 1195px;
+  height: 1643px;
+  margin: 48px auto 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.buy-robux-banner-inner {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  background: url(../img/buy-robux-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.buy-robux-banner-one {
+  display: flex;
+  padding-top: 110px;
+  padding-left: 119px;
+}
+
+.buy-robux-banner-one img {
+  width: 68px;
+  height: 68px;
+  margin-right: 20px;
+}
+
+.buy-robux-banner-one p {
+  width: 614px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2083;
+}
+
+.buy-robux-banner-two {
+  display: flex;
+  align-items: center;
+  padding-left: 119px;
+  margin-top: 39px;
+}
+
+.buy-robux-banner-two img {
+  width: 525px;
+  height: 284px;
+}
+
+.buy-robux-banner-three {
+  display: flex;
+  margin-left: 119px;
+  margin-top: 73px;
+}
+
+.buy-robux-banner-three img {
+  width: 68px;
+  height: 68px;
+  margin-right: 22px;
+}
+
+.buy-robux-banner-three p {
+  width: 529px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2083;
+}
+
+.buy-robux-banner-four {
+  display: flex;
+  align-items: center;
+  margin-left: 145px;
+}
+
+.buy-robux-banner-four-img-1 {
+  width: 74px;
+  height: 91px;
+  margin-right: 47px;
+}
+
+.buy-robux-banner-four-img-2 {
+  width: 586px;
+  height: 329px;
+}
+
+.buy-robux-banner-five {
+  display: flex;
+  margin-top: 73px;
+  margin-left: 119px;
+}
+
+.buy-robux-banner-five img {
+  width: 68px;
+  height: 68px;
+  margin-right: 19px;
+}
+
+.buy-robux-banner-five p {
+  width: 729px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2083;
+}
+
+.buy-banner-six-left-item-1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid #ffc93d;
+  border-radius: 15px;
+  width: 366px;
+  height: 49px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 90%;
+  /* or 22px */
+  color: #ffc93d;
+  margin-bottom: 76px;
+}
+
+.buy-banner-six-left-item-1 img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.buy-banner-six-left-item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 99px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffc93d;
+  border: 3px solid #ffc93d;
+  border-radius: 15px;
+  margin-bottom: 52px;
+}
+
+.buy-banner-six-left-item-2 img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.buy-banner-six-left-item-3 a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.444;
+}
+
+.buy-banner-six-left-item-3 img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.buy-banner-six-left-item-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #98cbff;
+}
+
+.buy-robux-banner-six-right img {
+  width: 563px;
+  height: 317px;
+  margin-left: 35px;
+}
+
+.buy-robux-banner-six {
+  display: flex;
+  margin-left: 119px;
+  margin-top: 40px;
+}
+
+.buy-robux-banner-btn {
+  width: 587px;
+  height: 50px;
+  border-radius: 15px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #0080ff -90deg,
+    #f05454 58.12deg,
+    #ffc93d 123.75deg,
+    #09b49f 210deg,
+    #0080ff 270deg,
+    #f05454 418.13deg
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 64px auto 0;
+}
+
+.buy-robux-banner-two-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 351px;
+  height: 67px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #98cbff -95.62deg,
+    #09b49f 93.75deg,
+    #98cbff 264.38deg,
+    #09b49f 453.75deg
+  );
+  border-radius: 20px;
+  margin-left: 85px;
+  cursor: pointer;
+}
+
+.buy-robux-banner-two-btn-inner {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2083;
+  color: #fff;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 20px;
+  background-color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.buy-robux-banner-two-btn-inner:hover {
+  background-color: transparent;
+}
+
+.buy-robux-banner-btn-inner {
+  background-color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.buy-robux-banner-btn-inner:hover {
+  background-color: transparent;
+}
+
+.buy-robux-banner-hero-1 {
+  position: absolute;
+  top: -213px;
+  left: -341px;
+  width: 490px;
+}
+
+.buy-robux-banner-hero-2 {
+  position: absolute;
+  top: -30px;
+  right: -420px;
+  width: 430px;
+  z-index: 1;
+}
+
+.buy-robux-banner-figure-right {
+  position: absolute;
+  top: 390px;
+  left: -130px;
+  width: 169px;
+  height: 169px;
+}
+
+.buy-robux-banner-figure-right-2 {
+  position: absolute;
+  top: 370px;
+  right: -82px;
+  width: 169px;
+  height: 169px;
+}
+
+.buy-robux-banner-figure-right-3 {
+  position: absolute;
+  top: 670px;
+  right: -74px;
+  width: 143px;
+}
+
+.vector-1 {
+  position: absolute;
+  top: -197px;
+  left: 160px;
+  width: 916px;
+}
+
+@media (max-width: 1840px) {
+  .buy-robux {
+    padding-top: 34.347vw;
+    padding-bottom: 35.534vw;
+  }
+  .buy-robux-item-method {
+    padding-top: 0.326vw;
+    padding-bottom: 0.434vw;
+    margin-right: 1.739vw;
+  }
+  .buy-robux-item-method-titel {
+    font-size: 0.978vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-method-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-method-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-method-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-method-info-text {
+    margin-left: 13px;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-method {
+    border-radius: 1.086vw;
+    width: 13.695vw;
+    height: 4.293vw;
+  }
+  .buy-robux-method-item-graphic-white {
+    width: 7.826vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-method-item-graphic-green {
+    width: 6.739vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-item-transfer {
+    padding-top: 0.326vw;
+    padding-bottom: 0.434vw;
+    margin-right: 1.739vw;
+  }
+  .buy-robux-item-transfer-titel {
+    font-size: 0.987vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-transfer-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-transfer-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-transfer-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-transfer-info-text {
+    margin-left: 0.706vw;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-transfer {
+    border-radius: 1.086vw;
+    width: 252px;
+    height: 79px;
+  }
+  .buy-robux-transfer-item-graphic-white {
+    width: 144px;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-transfer-item-graphic-yellow {
+    width: 55px;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-item-logpass {
+    padding-top: 6px;
+    padding-bottom: 0.434vw;
+  }
+  .buy-robux-item-logpass-titel {
+    font-size: 0.987vw;
+    margin-left: 2.717vw;
+  }
+  .buy-robux-item-logpass-info-text-one {
+    font-size: 0.489vw;
+  }
+  .buy-robux-item-logpass-info-text-two {
+    font-size: 0.652vw;
+  }
+  .buy-robux-item-logpass-info img {
+    width: 1.684vw;
+    height: 1.684vw;
+    margin-left: 0.38vw;
+  }
+  .buy-robux-item-logpass-info-text {
+    margin-left: 0.706vw;
+    margin-top: 0.38vw;
+  }
+  .buy-robux-item-logpass {
+    border-radius: 1.086vw;
+    width: 13.695vw;
+    height: 4.293vw;
+  }
+  .buy-robux-logpass-item-graphic-white {
+    width: 7.826vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-logpass-item-graphic-red {
+    width: 1.358vw;
+    height: 0.271vw;
+    border-radius: 0.271vw;
+  }
+  .buy-robux-banner {
+    width: 64.945vw;
+    height: 89.293vw;
+    margin: 2.608vw auto 0;
+  }
+  .buy-robux-banner-one {
+    padding-top: 5.978vw;
+    padding-left: 6.467vw;
+  }
+  .buy-robux-banner-one img {
+    width: 3.695vw;
+    height: 3.695vw;
+    margin-right: 1.086vw;
+  }
+  .buy-robux-banner-one p {
+    width: 33.369vw;
+    font-size: 1.304vw;
+  }
+  .buy-robux-banner-two {
+    padding-left: 6.476vw;
+    margin-top: 2.119vw;
+  }
+  .buy-robux-banner-two img {
+    width: 28.532vw;
+    height: 15.434vw;
+  }
+  .buy-robux-banner-three {
+    margin-left: 6.476vw;
+    margin-top: 3.967vw;
+  }
+  .buy-robux-banner-three img {
+    width: 3.695vw;
+    height: 3.695vw;
+    margin-right: 1.195vw;
+  }
+  .buy-robux-banner-three p {
+    width: 28.75vw;
+    font-size: 1.304vw;
+  }
+  .buy-robux-banner-four {
+    margin-left: 7.88vw;
+  }
+  .buy-robux-banner-four-img-1 {
+    width: 4.021vw;
+    height: 4.945vw;
+    margin-right: 2.554vw;
+  }
+  .buy-robux-banner-four-img-2 {
+    width: 31.847vw;
+    height: 17.88vw;
+  }
+  .buy-robux-banner-five {
+    margin-top: 3.967vw;
+    margin-left: 6.467vw;
+  }
+  .buy-robux-banner-five img {
+    width: 3.695vw;
+    height: 3.695vw;
+    margin-right: 1.032vw;
+  }
+  .buy-robux-banner-five p {
+    width: 39.619vw;
+    font-size: 1.304vw;
+  }
+  .buy-banner-six-left-item-1 {
+    border-radius: 0.815vw;
+    width: 19.891vw;
+    height: 2.663vw;
+    font-size: 1.304vw;
+    margin-bottom: 4.13vw;
+  }
+  .buy-banner-six-left-item-1 img {
+    width: 1.358vw;
+    height: 1.358vw;
+    margin-right: 0.815vw;
+  }
+  .buy-banner-six-left-item-2 {
+    width: 19.891vw;
+    height: 5.38vw;
+    font-size: 0.76vw;
+    border-radius: 0.815vw;
+    margin-bottom: 2.826vw;
+  }
+  .buy-banner-six-left-item-2 img {
+    width: 1.358vw;
+    height: 1.358vw;
+    margin-right: 0.271vw;
+  }
+  .buy-banner-six-left-item-3 a {
+    font-size: 0.489vw;
+  }
+  .buy-banner-six-left-item-3 img {
+    width: 1.304vw;
+    height: 1.304vw;
+    margin-right: 0.38vw;
+  }
+  .buy-banner-six-left-item-3 {
+    width: 19.891vw;
+    height: 1.956vw;
+    border-radius: 0.543vw;
+  }
+  .buy-robux-banner-six-right img {
+    width: 30.597vw;
+    height: 17.228vw;
+    margin-left: 1.902vw;
+  }
+  .buy-robux-banner-six {
+    margin-left: 6.467vw;
+    margin-top: 2.173vw;
+  }
+  .buy-robux-banner-btn {
+    width: 31.902vw;
+    height: 2.717vw;
+    border-radius: 0.815vw;
+    margin: 3.478vw auto 0;
+  }
+  .buy-robux-banner-two-btn {
+    width: 19.07vw;
+    height: 3.641vw;
+    border-radius: 1.086vw;
+    margin-left: 4.619vw;
+  }
+  .buy-robux-banner-two-btn-inner {
+    font-size: 1.304vw;
+    border-radius: 1.086vw;
+  }
+  .buy-robux-banner-btn-inner {
+    font-size: 1.956vw;
+    border-radius: 0.815vw;
+  }
+  .buy-robux-banner-hero-1 {
+    top: -11.576vw;
+    left: -18.532vw;
+    width: 26.63vw;
+  }
+  .buy-robux-banner-hero-2 {
+    top: -1.63vw;
+    right: -22.826vw;
+    width: 23.369vw;
+  }
+  .buy-robux-banner-figure-right {
+    top: 21.295vw;
+    left: -7.065vw;
+    width: 9.184vw;
+    height: 9.184vw;
+  }
+  .buy-robux-banner-figure-right-2 {
+    top: 20.108vw;
+    right: -4.456vw;
+    width: 9.184vw;
+    height: 9.184vw;
+  }
+  .buy-robux-banner-figure-right-3 {
+    top: 36.413vw;
+    right: -4.021vw;
+    width: 7.771vw;
+  }
+  .vector-1 {
+    top: -10.706vw;
+    left: 8.695vw;
+    width: 49.782vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .buy-robux-banner-hero-1,
+  .buy-robux-banner-hero-2,
+  .buy-robux-banner-figure-right,
+  .buy-robux-banner-figure-right-2,
+  .buy-robux-banner-figure-right-3,
+  .vector-1,
+  .buy-robux-banner-four-img-1,
+  .buy-banner-six-left-item-1 img,
+  .buy-banner-six-left-item-2 img,
+  .buy-banner-six-left-item-3 img,
+  .buy-robux-banner-one img,
+  .buy-robux-banner-three img,
+  .buy-robux-banner-five img {
+    display: none;
+  }
+  .buy-robux-banner {
+    width: calc(100% - 40px);
+    border: 1px solid #fff;
+    border-radius: 2.666vw;
+    height: auto;
+  }
+  .buy-robux-banner-inner {
+    background-image: none;
+    padding: 4vw;
+    text-align: center;
+  }
+  .buy-robux-banner-one {
+    padding: 0;
+    margin-bottom: 5.333vw;
+  }
+  .buy-robux-banner-one p,
+  .buy-robux-banner-three p,
+  .buy-robux-banner-five p {
+    font-size: 4.266vw;
+    width: 100%;
+  }
+  .buy-robux-banner-two {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .buy-robux-banner-two-btn {
+    margin-left: 0;
+    width: 53.333vw;
+    height: 8vw;
+  }
+  .buy-robux-banner-two-btn-inner {
+    font-size: 3.733vw;
+  }
+  .buy-robux-banner-two img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 5.333vw;
+  }
+  .buy-robux-banner-four {
+    justify-content: center;
+    margin-left: 0;
+  }
+  .buy-robux-banner-four-img-2 {
+    width: 70%;
+    height: auto;
+  }
+  .buy-robux-banner-three {
+    margin-bottom: 5.333vw;
+    margin-left: 0;
+  }
+  .buy-robux-banner-five {
+    margin-left: 0;
+  }
+  .buy-robux-banner-six {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .buy-banner-six-left-item-1 {
+    width: 53.333vw;
+    height: 8vw;
+    font-size: 3.733vw;
+  }
+  .buy-banner-six-left-item-2 {
+    width: 53.333vw;
+    font-size: 3.733vw;
+    height: 37.333vw;
+    padding: 2.666vw;
+  }
+  .buy-banner-six-left-item-3 {
+    width: 53.333vw;
+    height: 37.333vw;
+    padding: 2.666vw;
+    margin-bottom: 5.333vw;
+  }
+  .buy-banner-six-left-item-3 a {
+    font-size: 3.733vw;
+  }
+  .buy-robux-banner-six-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buy-robux-banner-six-right img {
+    width: 70%;
+    height: auto;
+    margin-left: 0;
+  }
+  .buy-robux-banner-btn {
+    width: 61.333vw;
+    height: 8vw;
+    border-radius: 2.666vw;
+  }
+  .buy-robux-banner-btn-inner {
+    font-size: 3.733vw;
+    border-radius: 2.666vw;
+  }
+}

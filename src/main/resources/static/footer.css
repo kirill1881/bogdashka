@@ -1,0 +1,50 @@
+.robux-footer {
+  padding-bottom: 19px;
+}
+
+.robux-footer-inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 126px;
+}
+
+.robux-footer-inner a {
+  margin-right: 75px;
+}
+
+.robux-footer-inner a:hover {
+  opacity: 0.7;
+  transition: 0.7s;
+}
+
+.robux-footer-inner a:last-child {
+  margin-right: 0;
+}
+
+.robux-footer-inner img {
+  width: 59px;
+  height: 59px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .robux-footer {
+    padding-bottom: 16vw;
+  }
+  .robux-footer-inner {
+    margin-right: 0;
+    flex-direction: column;
+    margin-top: -15.2vw;
+  }
+  .robux-footer-inner img {
+    width: 9.6vw;
+    height: 9.6vw;
+    border-radius: 50%;
+  }
+  .robux-footer-inner a {
+    margin-bottom: 11.2vw;
+  }
+  .robux-footer-inner a:last-child {
+    margin-bottom: 0;
+  }
+}
