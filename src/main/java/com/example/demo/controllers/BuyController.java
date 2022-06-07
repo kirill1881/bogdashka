@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.*;
 
 @Controller
-@RequestMapping("/buy")
+@RequestMapping("/buy-methods")
 public class BuyController {
 
 
